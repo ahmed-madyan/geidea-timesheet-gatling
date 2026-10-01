@@ -262,11 +262,12 @@
       return document.querySelector("input[name=simulation]:checked").value;
     }
 
-    const GITLAB = "https://code.geidea.net";
-    const PROJECT = "geidea/qe-performance/geidea-timesheet-gatling";
-    const BRANCH = "main";
-    const TRIGGER_TOKEN = "glptt-4a7c1433c1d4a52b781e04bd7edb99c076693631";
-    const MONITOR_TOKEN = "";
+    const GITHUB_API = "https://api.github.com";
+    const OWNER = "ahmed-madyan";
+    const REPO = "geidea-timesheet-gatling";
+    const WORKFLOW = "timesheet.yml";
+    const BRANCH = "master";
+    const DISPATCH_TOKEN = "";
 
     const saved = JSON.parse(localStorage.getItem("timesheet-ci") || "{}");
     if (saved.username) document.getElementById("username").value = saved.username;
@@ -552,12 +553,15 @@
 
       localStorage.setItem("timesheet-ci", JSON.stringify({ username, simulation }));
 
-      const body = new URLSearchParams();
-      body.set("token", TRIGGER_TOKEN);
-      body.set("ref", BRANCH);
-      body.set("variables[SIMULATION]", simulation);
-      body.set("variables[TIMESHEET_USERNAME]", username);
-      body.set("variables[TIMESHEET_PASSWORD]", "enc:" + await encryptPassword(password));
+      if (!DISPATCH_TOKEN) {
+        setStatus("err", "Set DISPATCH_TOKEN in the page to a GitHub token that can start Actions.");
+        return;
+      }
+      const inputs = {
+        simulation,
+        timesheet_username: username,
+        timesheet_password: "enc:" + await encryptPassword(password)
+      };
       if (simulation === "task-log") {
         if (!csv.files.length) {
           setStatus("err", "Choose a task-varieties.csv file.");
@@ -569,41 +573,27 @@
           setStatus("err", "Incorrect file format.<br>" + errors.map((item) => "• " + item).join("<br>"));
           return;
         }
-        body.set("variables[TASK_VARIETIES_CSV]", taskFile);
+        inputs.task_varieties_csv = taskFile;
       }
 
       document.getElementById("password").value = "";
       submit.disabled = true;
       submit.textContent = "Starting…";
-      const action = `${GITLAB}/api/v4/projects/${encodeURIComponent(PROJECT)}/trigger/pipeline`;
-      let response;
+      const started = new Date();
       try {
-        response = await fetch(action, {
-          method: "POST",
-          headers: { "Content-Type": "application/x-www-form-urlencoded" },
-          body
-        });
-      } catch (networkError) {
-        const native = document.createElement("form");
-        native.method = "POST";
-        native.action = action;
-        for (const [key, value] of body) {
-          const input = document.createElement("input");
-          input.type = "hidden";
-          input.name = key;
-          input.value = value;
-          native.appendChild(input);
+        const response = await github(
+          `/repos/${OWNER}/${REPO}/actions/workflows/${WORKFLOW}/dispatches`,
+          {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ ref: BRANCH, inputs })
+          }
+        );
+        if (response.status !== 204) {
+          const payload = await response.json().catch(() => ({}));
+          throw new Error(payload.message || `GitHub returned ${response.status}`);
         }
-        document.body.appendChild(native);
-        native.submit();
-        return;
-      }
-      try {
-        const payload = await response.json().catch(() => ({}));
-        if (!response.ok) {
-          throw new Error(payload.message || `GitLab returned ${response.status}`);
-        }
-        await watchPipeline(payload.id, payload.web_url);
+        await watchRun(started);
       } catch (error) {
         setStatus("err", error.message);
       } finally {
@@ -619,25 +609,14 @@
         .replaceAll(">", "&gt;");
     }
 
-    async function gitlabGet(path) {
-      const url = `${GITLAB}/api/v4/projects/${encodeURIComponent(PROJECT)}${path}`;
-      const token = MONITOR_TOKEN || TRIGGER_TOKEN;
-      const attempts = [
-        { headers: { "PRIVATE-TOKEN": token }, cache: "no-store" },
-        { credentials: "include", cache: "no-store" }
-      ];
-      let last = { ok: false, status: 0, text: "" };
-      for (const options of attempts) {
-        try {
-          const response = await fetch(url, options);
-          const text = await response.text();
-          last = { ok: response.ok, status: response.status, text };
-          if (response.ok && !text.includes("sign_in")) return last;
-        } catch (error) {
-          last = { ok: false, status: 0, text: "" };
-        }
-      }
-      return last;
+    function github(path, options = {}) {
+      const headers = {
+        Authorization: "Bearer " + DISPATCH_TOKEN,
+        Accept: "application/vnd.github+json",
+        "X-GitHub-Api-Version": "2022-11-28",
+        ...(options.headers || {})
+      };
+      return fetch(GITHUB_API + path, { ...options, headers, cache: "no-store" });
     }
 
     function clock(started) {
