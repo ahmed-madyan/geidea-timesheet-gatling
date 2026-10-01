@@ -1,0 +1,1239 @@
+id,Project
+1862,> Paycore GroupIB Integration
+2512,Admin Panel > Production Issues
+1848,AFD-mada > PAX-AFD-6.0.10
+1847,AFD-mada > PAX-AFD-6.0.9
+1849,AFD-mada > PAX-AFD-RN-4
+1863,AL-INMA > AL-INMA Pin Assginment V 2.0
+4532,Alinma POS Outsourcing
+4570,APEX >  migration pre-requisites P0 > GPD-2175
+357,APEX >  stack remaining ledgers migration
+2377,Apex > Aani > GPD-684
+4535,Apex > ADCB integration
+4674,Apex > Additional Transaction Filters GPD-2535
+4668,Apex > Advance Payouts GPD-2531
+4536,Apex > Al Wathba Insurance
+356,APEX > Alrajhi Merchant Migration
+521,Apex > B2B Payments GPD-868
+535,Apex > BAU
+536,Apex > BAU Automation GPD-1819
+527,Apex > BIN sponsorship GPD-1688
+528,Apex > CB volume/trx. reporting GPD-1436
+533,Apex > CDTRs GPD-1821
+530,Apex > City length extension in Apex GPD-1825
+522,Apex > DC Migration
+531,Apex > DCC GPD-823
+420,APEX > Debit and Prepaid Card MSF separately configured in APEX > MEU-206
+462,APEX > Development
+4676,Apex > Direct Debit
+526,Apex > Domestic trx / CB -Switch GPD-687
+395,Apex > Ecommerce Acquiring and PTSPs Partnership > GPD-2002
+524,Apex > FX Markup GPD-1498
+390,Apex > GPD-1432 [-New Stack] Data Migration (POC) > GPD-1432
+2379,Apex > Instant Discount
+4537,Apex > Internal Reports
+525,Apex > Jaywan GPD-675
+4598,Apex > Lending
+1988,APEX > MA to APEX Transformation > GPD-786
+2017,APEX > MA-APEX Transformation (MA Decommissioning) > GPD-786
+523,Apex > MCY GPD-1431
+458,APEX > Memento
+2375,Apex > MoneySend
+4595,Apex > OGold
+466,Apex > Operational
+4596,Apex > PayGlocal
+2378,Apex > Per Transaction Fee
+2380,Apex > Production Support
+4672,Apex > Recon Reports
+4671,Apex > Refund MDR
+4667,Apex > Sales Support
+452,APEX > SAS AML
+4600,Apex > SBK Real Estate
+431,APEX > Splitting of settlement amount to multiple accounts > GPD-1128
+4597,Apex > Track 5
+392,Apex > Unified Onboarding > GPD-1155
+2381,Apex > Union Coop
+534,Apex > Visa Installments GPD-1822
+532,Apex > Wechat Pay on POS GPD-676
+4599,Apex > Wio bank integration
+2061,App to App > AFD
+2065,App to App > App to App
+1805,App to App > App to App > Air gate
+1715,Apple Tap to pay > iOS - Mobile Application
+4538,Apple Tap to Pay- Apple -Tap to pay
+1857,App-to-App Integration > ODM App-to-App Integration
+1855,App-to-App Integration > PAX App-to-App Integration
+1856,App-to-App Integration > SUNMI App-to-App Integration
+1843,Autopos > Automating the POS
+1842,Autopos > Automating the POS .
+4624,Bill Payment > Ana Elmasry > GPD-1827
+2463,Bill Payment > Features
+4625,Bill Payment > Sandah > GPD-2197
+4626,Bill Payment > Zeds > GPD-2196
+4680,BP > Edafa CR's
+4678,BP > Overdraft Handling for Telecom Wallet Transactions > GPD-2356
+4631,BP->Wholesales-->GPD-1685
+2462,CBE Direct License
+2062,Cloud Integration > Cloud Integration
+1804,Cloud Integration > Cloud Integration > Alfa Co.
+4659,Cloud Integration iOS
+4660,Cloud Integration- UAE
+1707,Cloud-Integeration > Andriod_ECR-SDK
+1705,Cloud-Integeration > Backend Services
+1710,Cloud-Integeration > Infra & Deployments
+1708,Cloud-Integeration > iOS_ECR-SDK
+1704,Cloud-Integeration > Nebula WEB ECR
+1706,Cloud-Integeration > POS-SDK
+1709,Cloud-Integeration > WEB_ECR-SDK
+4640,CP > App2App Changes > GPD-2397
+4642,CP > CUP cobranded flow single tap flow - iteration 2 > GPD-2080
+4643,CP > Custom branding on dual screen POS second screen > GPD-2222
+4632,CP > Damen GBB Phase 2: ATM Cashin/out > GPD-2087
+4644,CP > Enable POS transactions over WiFi > GPD-2044
+4645,CP > Feature parity for Sunmi P3H & P2 > GPD-2221
+4641,CP > GBB | NBE POS application > GPD-2402
+4638,CP > GBB- CIB application > GPD-2150
+4633,CP > GBB-New QNB requirements > GPD-2070
+4650,CP > Integrate POS/Geidea terminal app with Global blue solution for hospitality > GPD-2142
+4651,CP > Integrate with planet payment solution with POS/Geidea terminal app > GPD-2143
+4602,CP > IPN | Arab bank > GPD-1233
+4636,CP > Issuer Country Code — EMV Collection & Reporting > GPD-2072
+4634,CP > Meeza QR Migration to B2B Middleware > GPD-2094
+4646,CP > Multi-MID > GPD-1266
+4637,CP > POS | End of Shift feature > GPD-1986
+4647,CP > POS-P08 Device Launch
+4601,CP > Prints an End of shift receipt for the Meeza QR trnasactions > GPD-1712
+4635,CP > Terminal Bulk Management Enhancement > GPD-2106
+4639,CP > Terminal Report changes > GPD-2191
+4649,CP > To perform Pay by invoice on POS > GPD-2132
+1716,D135 > iOS - D135 Mada Application
+1717,D135 > iOS - D135 SDK
+2511,Data Warehouse Migration
+1696,Delivery Interviews
+2031,Desktop Integration > DLL C++ Integration (USB)
+1815,Desktop Integration > DLL C++ Integration (USB) > Anywhere.Software
+1816,Desktop Integration > DLL C++ Integration (USB) > DCC
+1818,Desktop Integration > DLL C++ Integration (USB) > House of Arts
+1808,Desktop Integration > DLL C++ Integration (USB) > Inma Integration
+1807,Desktop Integration > DLL C++ Integration (USB) > Inma PinPad
+1822,Desktop Integration > DLL C++ Integration (USB) > LUMI Rental
+1821,Desktop Integration > DLL C++ Integration (USB) > Nahdi Medical
+1806,Desktop Integration > DLL C++ Integration (USB) > Panda
+2068,Desktop Integration > DLL C++ Integration (Wi-Fi)
+1819,Desktop Integration > DLL C++ Integration > Api integration
+2082,Desktop Integration > Java and DLL
+2032,Desktop Integration > JAVA JAR Integration (LAN)
+2112,Desktop Integration > JAVA JAR Integration (RS-232)
+1803,Desktop Integration > JAVA JAR Integration (RS-232) > Riyadh metro
+2037,Desktop Integration > JAVA JAR Integration (USB)
+2117,Desktop Integration > Legacy DLL and Direct command (USB)
+4648,Digital channel >  Pay@Table Product > GPD-2047
+1746,Digital ERC > ERC Merchant Portal
+4683,DLL C++ Integration(USB)
+4687,DLL C++ Integration(USB)
+4688,DLL C++ Integration(Wi-Fi)
+4684,DLL C++ Integration(Wi-Fi)
+2424,EGY MA - MMS Project Governance / Meetings
+4675,e-Invoicing
+2418,Enterprise Applications Hiring / Interviews
+471,Enterprise Architecture
+472,Environment Recovery & Delivery Management
+1727,EPOS >  Genesys
+1718,EPOS >  WebPortal
+1721,EPOS >  GMB API Integration
+1697,EPOS > Andriod - Epos Mobile Application
+1722,EPOS > GeideaStore - Api Integration
+1720,EPOS > Genesys
+1728,EPOS > GMB
+1698,EPOS > iOS - Epos Mobile Application
+1733,EPOS > POS
+1723,EPOS > POS- Api Integration
+1724,EPOS > RPA
+1719,EPOS > Technician MobileApp
+1725,EPOS > WebPortal
+4615,EPOS- Geidea Store- API Integration
+4611,EPOS- Genesys
+4613,EPOS- GMB API Integration
+4612,EPOS- WebPortal
+2290,ePOS  > Blocker Resolution
+2294,ePOS  > CTO Standup
+2289,ePOS  > Hiring Strategy Discussions
+2293,ePOS  > Mentoring / Coaching
+2285,ePOS  > Production Issue Handling
+2284,ePOS  > QA Coordination
+2286,ePOS  > Requirement Discussions
+2287,ePOS  > Roadmap Planning
+2295,ePOS  > Security Audit Coordination
+2291,ePOS  > Sprint Tracking
+2292,ePOS  > Technical Decision Making
+2288,ePOS   > Backlog Prioritization
+4580,EPOS-RPA
+4614,EPOS-Technician Mobile App
+2296,ERC  > QA Coordination
+2302,ERC  > Blocker Resolution
+2306,ERC  > CTO Standup
+2301,ERC  > Hiring Strategy Discussions
+2305,ERC  > Mentoring / Coaching
+2297,ERC  > Production Issue Handling
+2298,ERC  > Requirement Discussions
+2299,ERC  > Roadmap Planning
+2307,ERC  > Security Audit Coordination
+2303,ERC  > Sprint Tracking
+2304,ERC  > Technical Decision Making
+2300,ERC   > Backlog Prioritization
+4548,ERP > Finance Change Requests
+4547,ERP > Finance Project
+4549,ERP > Finance Support
+4550,ERP > Finance Task
+4552,ERP > SuccessFactors & Payroll - Change Request
+4565,ERP > SuccessFactors & Payroll - Support
+4553,ERP > SuccessFactors & Payroll - Task
+4551,ERP > SuccessFactors & Payroll Project
+4560,ERP> Basis & Security - Change Requests
+4559,ERP> Basis & Security - Project
+4568,ERP> Basis & Security - Support
+4561,ERP> Basis & Security - Task
+4563,"ERP> BTP, ABAP & FIORI - Change Requests"
+4562,"ERP> BTP, ABAP & FIORI - Project"
+4569,"ERP> BTP, ABAP & FIORI - Support"
+4564,"ERP> BTP, ABAP & FIORI - Task"
+4555,ERP> Procurement - Change Requests
+4566,ERP> Procurement - Support
+4556,ERP> Procurement - Task
+4557,ERP> Sales & Customer Service - Change Request
+4567,ERP> Sales & Customer Service - Support
+4558,ERP> Sales & Customer Service - Task
+4554,ERP>Procurement - Project
+2012,E-Wallet > EMI Platform Development
+2104,Freshdesk > Freshdesk SYNC
+1734,GBB Portal > GBB Portal
+2457,GCSC Engineering -> members onboarding
+2453,GCSC Engineering -> Technical Assessments & Governance
+4571,GCSC Engineering -> Technical Dept Infra and Integrations
+1702,Geidea - GMB > GMB - Andriod - New Stack
+1703,Geidea - GMB > GMB - iOS - Old Stack
+397,Geidea APP >  Geidea App- Mandatory App update
+1840,Geidea App > ECR Integration
+1841,Geidea App > mada QR
+1839,Geidea App > POS App Promon Integration
+1837,Geidea App > POS App V1.01
+1838,Geidea App > POS App V1.02
+2346,Geidea Softpos > Admin
+1765,Geidea SoftPOS > Backend Development
+1776,Geidea SoftPOS > Backend Internal Testing
+2335,Geidea Softpos > Cross-Team Collaboration
+2342,Geidea Softpos > DevOps Strategy
+2334,Geidea Softpos > Execution Oversight
+3534,Geidea SoftPOS > External Meeting
+1766,Geidea SoftPOS > Frontend Development
+2339,Geidea Softpos > Geo Coordination
+2340,Geidea Softpos > Hiring
+2336,Geidea Softpos > Incident Management
+3539,Geidea SoftPOS > Internal Meeting
+3535,Geidea SoftPOS > Internal Process and Approvals
+1773,Geidea SoftPOS > L2 Certification
+1846,Geidea Softpos > L3 App Development -6.0.10
+1845,Geidea Softpos > L3 App Development-6.0.9
+1768,Geidea SoftPOS > L3 Backend Development
+1767,Geidea SoftPOS > L3 SDK Development
+2337,Geidea Softpos > Leadership Communication
+2341,Geidea Softpos > Metrics & Reporting
+1772,Geidea SoftPOS > MPOC Certification
+2345,Geidea Softpos > Org Development
+1769,Geidea SoftPOS > PCI DSS Certification
+1770,Geidea SoftPOS > PCI PIN Certification
+1771,Geidea SoftPOS > PCI SLC Certification
+2338,Geidea Softpos > Product & Business
+2344,Geidea Softpos > Risk & Compliance
+1764,Geidea SoftPOS > SDK Development
+1775,Geidea SoftPOS > SDK Internal Testing
+1774,Geidea SoftPOS > SoftPOS Infra setup
+2343,Geidea Softpos > Strategy & R&D
+2332,Geidea Softpos > Team Management
+2333,Geidea Softpos > Technical Leadership
+3533,Geidea SoftPOS->Internal Meeting
+2532,Geidea SoftPOS-Backend Development
+2544,Geidea SoftPOS-Backend Internal Testing
+2545,Geidea SoftPOS-External Meeting
+2533,Geidea SoftPOS-Frontend Development
+2546,Geidea SoftPOS-Internal Meeting
+3528,Geidea SoftPOS-Internal Process and Approvals
+2541,Geidea SoftPOS-L2 Certification
+2535,Geidea SoftPOS-L3 Backend Development
+2534,Geidea SoftPOS-L3 SDK Development
+2540,Geidea SoftPOS-MPOC Certification
+2536,Geidea SoftPOS-PCI DSS Certification
+2537,Geidea SoftPOS-PCI PIN Certification
+2539,Geidea SoftPOS-PCI SLC Certification
+2531,Geidea SoftPOS-SDK Development
+2543,Geidea SoftPOS-SDK Internal Testing
+2542,Geidea SoftPOS-Softpos Infra setup
+1753,Geidea Store > Account Management
+2361,Geidea Store > Admin
+1752,Geidea Store > App Management
+1762,Geidea Store > Audit Management
+3531,Geidea Store > Cell Tower
+1758,Geidea Store > Common authentication
+2350,Geidea Store > Cross-Team Collaboration
+1755,Geidea Store > Device Auth
+1761,Geidea Store > Device Diagnostic
+4534,Geidea Store > Device Logs
+1754,Geidea Store > Device Management
+2357,Geidea Store > DevOps Strategy
+2349,Geidea Store > Execution Oversight
+1756,Geidea Store > Gateway
+2354,Geidea Store > Geo Coordination
+3530,Geidea Store > Geo Fencing
+1757,Geidea Store > Geo Location
+2355,Geidea Store > Hiring
+2351,Geidea Store > Incident Management
+2352,Geidea Store > Leadership Communication
+1759,Geidea Store > Logging common
+2356,Geidea Store > Metrics & Reporting
+2360,Geidea Store > Org Development
+2353,Geidea Store > Product & Business
+4533,Geidea Store > Remote Diagnostic
+2359,Geidea Store > Risk & Compliance
+1760,Geidea Store > Scheduler Management
+2358,Geidea Store > Strategy & R&D
+2347,Geidea Store > Team Management
+2348,Geidea Store > Technical Leadership
+1763,Geidea Store > TMS Frontend
+2460,Geidea Website
+1836,Geideas Store >  Client App for ODM
+1835,Geideas Store >  Client App for SUNMI
+1834,Geideas Store > Client App for PAX
+1701,Geidea-x >  Core features
+1700,Geidea-x >  iOS - Native-Onboarding
+1699,Geidea-x > Andriod - Native-Onboarding
+4630,General > Delivery Portfolio Management
+2116,Git Lab > Git Lab Migration
+2485,GLE > BP By Card
+4622,Google Cloud platform
+474,GPOS > Yuma Handover
+2528,Group-IB
+2436,GSDK  >  Version 20.5
+2438,GSDK  >  Version 20.5.2
+2437,GSDK  >  Version 20.6
+2499,GSDK > Forsa - BNPL - CP > GPD-1147
+459,GSDK > Memento
+2489,GSDK > Mogo BNPL for CP > GPD-1149
+467,GSDK > Operations
+454,GSDK > SAS AML
+4677,GSDK KSA Support
+789,Hotfixes
+1747,INETCO ERC > INETCO ERC
+2030,Inetco Insight > INETCO
+465,INETCO MW > Operational
+691,Infra > AD Consolidation > Deployment Infra
+690,Infra > AD Consolidation > New Infra Setup on ALL DR DC
+689,Infra > AD Consolidation > New Infra Setup on ALL Main DC
+676,Infra > Admin Panel > Deployment Infra
+713,Infra > Admin Panel > New Infra Setup on AWS Ireland
+675,Infra > Admin Panel > New Infra Setup on AWS-OP DR DC
+674,Infra > Admin Panel > New Infra Setup on AWS-OP Main DC
+613,Infra > APEX > Deployment Infra
+548,Infra > APEX > New Alrajhi Merchant Migration
+549,Infra > APEX > New Banks Connectivity
+692,Infra > APEX > New Infra Setup on AWS Ireland
+612,Infra > APEX > New Infra Setup on AWS-OP DR DC
+611,Infra > APEX > New Infra Setup on AWS-OP Main DC
+550,Infra > Automation > New Implementation to Automte Network OPS
+551,Infra > AWS > New AWS-OutPost DR Datacenter Setup
+554,Infra > AWS > New AWS-OutPost Main Datacenter Setup
+552,Infra > AWS > New IAM Management
+557,Infra > AWS > New Infra Migration to Ireland
+553,Infra > AWS > New Infra Setup for Lower Environment
+558,Infra > AWS > New Migration from Nutanix to AWS-OP
+559,Infra > AWS > New Setup AVPN
+560,Infra > AWS > New Setup SVPN
+561,Infra > Azure > New Network Setup with AWS-OP Main DC
+562,Infra > Backup > New Offline and Offsite Backup
+2016,Infra > Backup > New Online Backup
+564,Infra > Backup > New Veeam Setup on AWS Ireland
+563,Infra > Backup > New Veeam Setup on AWS-OP DR
+810,Infra > Backup > New Veeam Setup on AWS-OP Main DC
+4572,Infra > Backup > Operations
+2026,Infra > Campus Network > Wired and Wifi Operation
+798,Infra > Certificate Management > SSL Certificates
+570,Infra > Compliance > Block Indicators of Compromise
+571,Infra > Compliance > Central Bank of pt Requirments
+572,Infra > Compliance > Central Bank of the  Requirments
+567,Infra > Compliance > New Setup AlgoSec
+569,Infra > Compliance > New Setup for EndPoint & Service Management
+573,Infra > Compliance > New Setup Group-IB
+565,Infra > Compliance > New Setup NTP
+574,Infra > Compliance > Patch Management
+568,Infra > Compliance > PCI Requirements
+566,Infra > Compliance > SAMA Requirements
+4574,Infra > Database > New Deployment
+4573,Infra > Database > Operations
+2027,Infra > Datacenters  > All Main and DR DC
+2029,Infra > Datacenters  > New Main and DR DC
+620,Infra > Datawarehouse > Deployment Infra
+619,Infra > Datawarehouse > New Infra Setup on AWS-OP DR DC
+618,Infra > Datawarehouse > New Infra Setup on AWS-OP Main DC
+617,Infra > Datawarehouse > New Infra Setup on Colo DR DC
+616,Infra > Datawarehouse > New Infra Setup on Colo Main DC
+682,Infra > Email > Deployment Infra
+681,Infra > Email > New Infra Setup on AWS-OP DR DC
+680,Infra > Email > New Infra Setup on AWS-OP Main DC
+697,Infra > EPOS > Deployment Infra
+694,Infra > EPOS > New Infra Setup on AWS Ireland
+696,Infra > EPOS > New Infra Setup on AWS-OP DR DC
+695,Infra > EPOS > New Infra Setup on AWS-OP Main DC
+701,Infra > ERC > Deployment Infra
+698,Infra > ERC > New Infra Setup on AWS Ireland
+700,Infra > ERC > New Infra Setup on AWS-OP DR DC
+699,Infra > ERC > New Infra Setup on AWS-OP Main DC
+667,Infra > Finscan  > Deployment Infra
+623,Infra > GBB > Deployment Infra
+622,Infra > GBB > New Infra Setup on Colo DR DC
+621,Infra > GBB > New Infra Setup on Colo Main DC
+626,Infra > Geidea Store > Deployment Infra
+625,Infra > Geidea Store > New Infra Setup on AWS-OP DR DC
+624,Infra > Geidea Store > New Infra Setup on AWS-OP Main DC
+629,Infra > Genesys > Deployment Infra
+628,Infra > Genesys > New Infra Setup on Colo DR DC
+627,Infra > Genesys > New Infra Setup on Colo Main DC
+632,Infra > Gitlab > Deployment Infra
+631,Infra > Gitlab > New Infra Setup on AWS-OP DR DC
+630,Infra > Gitlab > New Infra Setup on AWS-OP Main DC
+634,Infra > GLE BP > Deployment Infra
+633,Infra > GLE BP > New Infra Setup on GPX Main DC
+637,Infra > GSDK > Deployment Infra
+636,Infra > GSDK > New Infra Setup on AWS-OP DR DC
+635,Infra > GSDK > New Infra Setup on AWS-OP Main DC
+685,Infra > Horizon Office > New Infra Setup pt
+638,Infra > Inetco > Deployment Infra
+640,Infra > International Geidea Store > Deployment Infra
+639,Infra > International Geidea Store > New Infra Setup on AWS Ireland
+642,Infra > International TMS > Deployment Infra
+641,Infra > International TMS > New Infra Setup on AWS Ireland
+645,Infra > Iping > Deployment Infra
+644,Infra > Iping > New Infra Setup on AWS-OP DR DC
+643,Infra > Iping > New Infra Setup on AWS-OP Main DC
+648,Infra > Jira And Confluence > Deployment Infra
+647,Infra > Jira And Confluence > New Infra Setup on AWS-OP DR DC
+646,Infra > Jira And Confluence > New Infra Setup on AWS-OP Main DC
+651,Infra > Memento > Deployment Infra
+650,Infra > Memento > New Infra Setup on AWS-OP DR DC
+649,Infra > Memento > New Infra Setup on AWS-OP Main DC
+654,Infra > Merchant Account > Deployment Infra
+702,Infra > Merchant Account > New Infra Setup on AWS Ireland
+653,Infra > Merchant Account > New Infra Setup on AWS-OP DR DC
+652,Infra > Merchant Account > New Infra Setup on AWS-OP Main DC
+679,Infra > Merchant Portal > Deployment Infra
+716,Infra > Merchant Portal > New Infra Setup on AWS Ireland
+678,Infra > Merchant Portal > New Infra Setup on AWS-OP DR DC
+677,Infra > Merchant Portal > New Infra Setup on AWS-OP Main DC
+673,Infra > Middleware B2B > Deployment Infra
+712,Infra > Middleware B2B > New Infra Setup on AWS Ireland
+672,Infra > Middleware B2B > New Infra Setup on AWS-OP DR DC
+671,Infra > Middleware B2B > New Infra Setup on AWS-OP Main DC
+655,Infra > MMS > Deployment Infra
+576,Infra > Monitoring > New Grafana Setup
+575,Infra > Monitoring > New integration of Loki with Elasticsearch.
+577,Infra > Monitoring > New SolarWinds Setup
+686,Infra > New Office > New Infra Setup Jeddah
+578,Infra > NSP > New Tech Refresh
+2024,Infra > Nutanix  > New Infra Deployment
+687,Infra > OCI > Infra Migration
+658,Infra > Onboarding > Deployment Infra
+707,Infra > Onboarding > New Infra Setup on AWS Ireland
+657,Infra > Onboarding > New Infra Setup on AWS-OP DR DC
+656,Infra > Onboarding > New Infra Setup on AWS-OP Main DC
+2025,Infra > PAM  > New Infra Deployment MPASS MFA
+663,Infra > PGW > Deployment Infra
+662,Infra > PGW > New Infra Setup on AWS Ireland
+2015,Infra > POS Bridge MOI > Deployment Infra
+2014,Infra > POS Bridge MOI > New Infra Setup on GPX Main DC
+666,Infra > Postilion > Deployment Infra
+708,Infra > Postilion > New Infra Setup on AWS Ireland
+665,Infra > Postilion > New Infra Setup on AWS-OP DR DC
+664,Infra > Postilion > New Infra Setup on AWS-OP Main DC
+661,Infra > RPA > Deployment Infra
+660,Infra > RPA > New Infra Setup on AWS-OP DR DC
+659,Infra > RPA > New Infra Setup on AWS-OP Main DC
+610,Infra > SAS AML > Deployment Infra
+609,Infra > SAS AML > New Infra Setup on AWS-OP DR DC
+608,Infra > SAS AML > New Infra Setup on AWS-OP Main DC
+579,Infra > Security Controls  > New Setup AntiVirus Kaspersky
+580,Infra > Security Controls  > New Setup AquaSec Security
+581,Infra > Security Controls  > New Setup Data Classification Titus
+582,Infra > Security Controls  > New Setup DDOS
+583,Infra > Security Controls  > New Setup DLP Symantec
+584,Infra > Security Controls  > New Setup DRM Workspace
+585,Infra > Security Controls  > New Setup EDR Carbon Black
+586,Infra > Security Controls  > New Setup ElasticSearch
+587,Infra > Security Controls  > New Setup Email Gateway Forti Mail
+588,Infra > Security Controls  > New Setup FIM Wazuh
+589,Infra > Security Controls  > New Setup Firewall Manager
+590,Infra > Security Controls  > New Setup Forti Proxy
+591,Infra > Security Controls  > New Setup FortiSASE
+592,Infra > Security Controls  > New Setup IAM Sail Point
+593,Infra > Security Controls  > New Setup MDM Black Berry
+594,Infra > Security Controls  > New Setup MFA Entrust
+607,Infra > Security Controls  > New Setup MFA MPASS
+595,Infra > Security Controls  > New Setup NAC Forescout
+596,Infra > Security Controls  > New Setup NDR Dark Trace
+597,Infra > Security Controls  > New Setup Network Security AlgoSec
+598,Infra > Security Controls  > New Setup PAM
+599,Infra > Security Controls  > New Setup Sandboxing Trellix
+600,Infra > Security Controls  > New Setup SDWAN
+601,Infra > Security Controls  > New Setup SISA
+602,Infra > Security Controls  > New Setup Splunk
+603,Infra > Security Controls  > New Setup Symantec Proxy
+604,Infra > Security Controls  > New Setup TACACS Cisco
+605,Infra > Security Controls  > New Setup Tenable
+606,Infra > Security Controls  > New Setup WAF
+615,Infra > TimeSheet > Deployment Infra
+614,Infra > TimeSheet > New Infra Setup on AWS-OP DR DC
+670,Infra > TMS > Deployment Infra
+709,Infra > TMS > New Infra Setup on AWS Ireland
+669,Infra > TMS > New Infra Setup on AWS-OP DR DC
+668,Infra > TMS > New Infra Setup on AWS-OP Main DC
+684,Infra > VAS > Deployment Infra
+683,Infra > VAS > New Infra Setup on AWS-OP Main DC
+688,Infra > YUMA > New Migration of Source Code
+2023,Inteco
+2283,Integration > Admin
+2272,Integration > Cross-Team Collaboration
+2279,Integration > DevOps Strategy
+2271,Integration > Execution Oversight
+2276,Integration > Geo Coordination
+2277,Integration > Hiring
+2273,Integration > Incident Management
+2274,Integration > Leadership Communication
+2278,Integration > Metrics & Reporting
+2282,Integration > Org Development
+2275,Integration > Product & Business
+2281,Integration > Risk & Compliance
+2280,Integration > Strategy & R&D
+2269,Integration > Team Management
+2270,Integration > Technical Leadership
+2439,Integration-->SAB-->Wallet
+2168,Invoice Management > Lebara - PR & Invoice Payment
+2166,Invoice Management > Mobily - PR & Invoice Payments
+2170,Invoice Management > SIM migration under NeoLeap account
+2165,Invoice Management > STC - Invoice Validation
+2169,Invoice Management > STC - PR & Invoice Payment
+2167,Invoice Management > Zain - PR & Invoice Payment
+4604,IOS TCP/IP Integration- SDK Integration Joe & Juice
+2366,iPing > Backlog Prioritization
+2368,iPing > Blocker Resolution
+2372,iPing > CTO Standup
+2367,iPing > Hiring Strategy Discussions
+2371,iPing > Mentoring / Coaching
+1735,iPing > Portal
+2363,iPing > Production Issue Handling
+2362,iPing > QA Coordination
+2364,iPing > Requirement Discussions
+2365,iPing > Roadmap Planning
+2373,iPing > Security Audit Coordination
+2369,iPing > Sprint Tracking
+2370,iPing > Technical Decision Making
+2431,IT Support > Administration
+2434,IT Support > Audit
+2432,IT Support > Enhancement
+2433,IT Support > Troubleshooting
+4685,JAVA JAR Integration(USB)
+4689,JAVA JAR Integration(USB)
+4690,JAVA JAR Integration(Wi-Fi)
+4686,JAVA JAR Integration(Wi-Fi)
+2423,KSA MA - MMS Project Governance / Meetings
+4575,Learning & Development Program->SAP Courses Assigned
+2256,Lebara>Invoice Validation
+2261,Lebara>PR & Invoice Payment
+719,"Lower Environments Stabilization (dev, test, preprod)"
+2456,Loyalty -> redemption platform
+2397,MA -> .net upgrade for MMS&MA -> GPD-906
+2443,MA > [MA-KSA] Pilot-2 UAT Bug Fixes and Missing Features  > GPD-785
+2406,MA -> Adding Data Elements into MA for UAE Central Bank Quarterly Report -> GPD-904
+2402,"MA -> Adding new Scheme ""Jaywan"" into the Account level pricing -> GPD-1117"
+2413,MA -> Additional Data Validations into MA to avoid APEX Federation Failures -> GPD-1936
+2394,MA -> APEX federation fixes for missing data  (AliPay/Visa Installment/Sales officer/DCC) -> GPD-1227
+2522,MA > Availability of lower Environment > GDADV005-101649
+2518,MA > BID Generation Logic Enhancement & Terminal Owner Federation into APEX for Sub Partners of Geidea > GDADV005-98792
+2395,MA -> Building Keycloak Integration for activated business' MP users role changes -> GPD-923
+4623,MA > CR Expiry (Commercial Register Expiry) – New Process
+794,MA > Data layer for external integrations > GPD-499
+2401,MA -> Descoped Items from Mega Release -> GPD-1937
+394,MA > Ecommerce Acquiring and PTSPs Partnership > GPD-2002
+2417,MA -> EGY Project Governance / Meetings
+4610,MA > Functional Optimization > GPD-2083
+792,MA > Functional Optimizations > GDADV005-98515
+370,MA > GPD-1119 [][MMS/MA] Freelancer Subscription Renewal Process > GPD-1119
+391,MA > GPD-1432 [-New Stack] Data Migration (POC) > GPD-1432
+2399,MA -> HSBC/All new referral channel's BID/MID Generation -> GPD-902
+2521,MA > Impersonation-Businesses Functionality Changes > GDADV005-100610
+4576,MA > Implementation of PEP&Sanction Questionnaire > GPD-2014
+4695,MA > Instant Onboarding Enhancements for Ops and Sales Support Team > GPD-2458
+2416,MA -> KSA Project Governance / Meetings
+2392,MA -> Lower Environments Readiness -> GPD-1231
+2007,MA > MA - Roles and Permissions > GPD-593
+4579,MA > MA-Required changes for adding SNB as new aggregator > GPD-2042
+2405,MA -> MATCH-Mastercard Integration for Auto Screening -> GPD-1934
+2519,MA > MC Match API Integration > GDADV005-81415
+460,MA > Memento > GPD-1103
+2440,MA > Merchant SMS Notification for Product Application -CFFR 4.1.7.b > GPD-2041
+448,MA > Multi- MID > GPD-1502
+2520,MA > Onboarding API Changes for new business requirements&PBLonPOS > GDADV005-97686
+795,MA > Onboarding API Enhancements & MA Workflow Changes to support Business teams > GPD-1636
+2523,MA > Onboarding API Enhancements & MA Workflow Changes to support Business teams > QET-1558
+385,MA > Onboarding-MA to cover eCom/PBL variations > GPD-1624
+2393,MA -> PENDING PAYORCH BUILDS -> GPD-1229
+2516,MA > Post Mega Release PROD Issues > GDADV005-100452
+2407,MA -> Postilion Integration via SFTP -> GPD-1452
+2404,MA -> Pricing Enhancements as per new business requirements -> GPD-1809
+2400,MA -> Removing Additional Order Restrictions -> GPD-900
+4586,MA > Removing Email Approvals from Enablement Process > GPD-2120
+2410,MA -> Removing Pricing Approval Step from Enablement Process -> GPD-1541
+429,MA > Reporting at Chain ID / Group Level > GPD-1091
+2006,MA > Risk & Compliance - User & Permission Management for MMS/MA > GPD-269
+2398,MA -> RM (Relationship Manager) Features on Business Level -> GPD-905
+451,MA > SAS AML
+2409,MA -> Setup Fee Process Change -> GPD-1939
+4543,MA > SNB Aggregator Changes on MA > GDADV005-103731
+2403,MA -> Terminal Owner Federation into APEX for Sub Partners of Geidea via Referral Channels -> GPD-1938
+793,MA > Terminal Owner Federation into APEX for Sub Partners of Geidea via Referral Channels > GPD-1938
+2408,MA -> Termination Process Enhancements for BO Team -> GPD-2040
+2411,MA -> TMS Registration&EPOS Ticket Creation Process Enhancement -> GPD-903
+2415,MA -> UAE Project Governance / Meetings
+2517,MA > UAE-Worldcheck Result Calculation Logic Change > GDADV005-98405
+393,MA > Unified Onboarding > GPD-1155
+2414,MA -> VISA-Integration for Auto Screening -> GPD-1935
+2412,MA -> Weekly TAT Reports for UAE-Operation -> GPD-1543
+2419,MA Mega Release - Go Live Support
+2420,MA UA Production Support / Maintenance
+2426,MA>Integration with Data Science for PEP/Sanction Screening>GPD-783
+2428,MA>MA-KSA-Functional Optimizations>GDADV005-98516
+2427,MA>MA-RPA Integration for TMS Registration>GPD-1466
+2429,MA>Mastercard Match API Version Update>GPD-1786
+2430,MA>Operational Efficiency Enhancements>GPD-1931
+2421,MA-MMS KSA Production Support / Maintenance
+1854,MDB Vendlink Integration > PAX IM25 MDB Integration
+1853,MDB Vendlink Integration > PAX IM30 MDB Integration
+2074,Meeting > In-Office Customer meeting
+2070,Meeting > Internal Meeting
+4652,Meeting > Internal Meetings
+2052,Meeting > Online Customer meeting
+4605,Meetings- Internal Meetings
+2268,Memento
+4698,MerchantApp->GPD-2617
+396,MMS > Apple Pay BM
+2483,MMS > BP By Card
+2498,MMS > Forsa - BNPL - CP > GPD-1147
+2479,MMS > Meeza Digital Migration from PGW BE to Middleware > GDADV005-103432
+4589,MMS > Memento Data Federation > GPD-1952
+2526,MMS > MMS Functional & Non-Functional Improvements > GPD-266
+453,MMS > SAS AML
+2422,MMS EGY Production Support / Maintenance
+4694,MMS->EGY MMS Performance Optimization->GPD-2457
+4693,MMS->Usability Enhancement->GPD-2457
+1712,Mobile Integration  > Andriod SDK
+2054,Mobile Integration > iOS SDK
+1711,Mobile Integration  > iOS SDK
+2254,Mobily>Invoice Validation
+2259,Mobily>PR & Invoice Payments
+4692,Money 20-20 Event- KSA
+4545,MP > Assign User to Business & Store > GDADV005-103587
+2506,MP > Forsa - BNPL - CP > GPD-1147
+2507,MP > Forsa Transactions Reporting on Merchant Portal > GDADV005-100567
+4577,MP > Initiate Refund from MP > MEU-283
+2459,MP > Instant Discount Listing & Reporting on Merchant Portal > GDADV005-95208
+2505,MP > Instant discount platform > GPD-799
+365,MP > ME-475 MP - User Management > ME-475
+366,MP > ME-489 MP - Account Management > ME-489
+2527,MP > MP - Business Management > ME-443
+4609,MP > MP - Enhancement > ME-2125
+3540,MP > MP - Transactions > ME-597
+4658,MP > MP Login > ME-595
+2461,MP > Operational Efficiency Enhancement
+4666,MP > PBL Enhancement (Clone) > GPD-2502
+439,MP > Portal Enhancement - Perform CP refund from portal > GPD-1176
+440,MP > Portal Enhancement - Transaction search on dashboard - customized search of transaction for data upto 1 year
+2455,MP -> public website
+4587,MP > Reporting at Chain & Group Level > MEU-411
+2021,MP > Schemes & Payment Methods TXs Reporting/Branding > MEU-295
+382,MP > SDB  > GPD-1127
+791,MP > Transaction Payment Details > MEU-204
+2020,MP > Transaction Visibility Enhancement > GPD-2006
+4665,MP > User Management _ Enhancement (Clone) > GPD-2503
+4618,MP > User Management > GPD-1788
+384,MP > User Management > ME-475
+4546,MP > Vouchers Transactions API > GDADV005-101990
+2491,MW > Alipay UI Merchant onboarding > GPD-617
+2495,MW > BNPL CP UI/UX and receipt revamp >
+2497,MW > Forsa - BNPL - CP > GPD-1147
+2481,MW > Meeza Digital Migration from PGW BE to Middleware > GDADV005-103432
+2504,MW > Merchant Onboarding onto AANI > GDADV005-99504
+2487,MW > Mogo BNPL for CP > GPD-1149
+2465,MW > POS Bridge MOI
+4578,MW > VAS Middleware Enhancements > GPD-2023
+435,MW > WECHAT PAY (MW) > GPD-1334
+4662,MW->Pay by Link on POS-->GPD-2338
+4664,MW>Valu Migration>GPD-2022
+4661,NBE- GBB-Payment-APP
+2263,NeoLeap> SIM migration
+4653,NOMOD
+4616,OB > OB Portal Enhancements _ CR-004 > UOP-7
+3541,OB > Onboarding - Enhancements > ME-893
+2248,ODM GeideaPay>Integration
+2241,ODM GeideaPay>Production Incidents
+2243,ODM GeideaPay>QR App
+1941,ODM-Geidea Pay > Cash transaction
+1963,ODM-Geidea Pay > Cup (Co-brand) Phase 1
+1965,ODM-Geidea Pay > Cup (Co-brand) Phase 2
+1939,ODM-Geidea Pay > Date and Time update
+1970,ODM-Geidea Pay > DBA Name-App Enhancement
+1972,ODM-Geidea Pay > Digital QR Receipt
+1985,ODM-Geidea Pay > Fetch Last Transaction - Web Ecr
+1983,ODM-Geidea Pay > Fetch Last Transaction- JAVA DLL
+1981,ODM-Geidea Pay > Fetch Last Transaction- Windows DLL
+1979,ODM-Geidea Pay > Fetch Last Transaction-SDK
+1937,ODM-Geidea Pay > Iping Implementation
+1931,ODM-Geidea Pay > Jaywan Certification
+1987,ODM-Geidea Pay > Merchant Receipt Control
+1933,ODM-Geidea Pay > Offline Auto Recon
+1961,ODM-Geidea Pay > Order Id-App Enhancement
+1943,ODM-Geidea Pay > QR Acceptance-JAVA integration
+1968,ODM-Geidea Pay > QR Acceptance-SDK  integration
+1953,ODM-Geidea Pay > QR Acceptance-Web ECR integration
+1945,ODM-Geidea Pay > QR Acceptance-Windows integration
+1975,ODM-Geidea Pay > QR in Merchant Reciept
+1973,ODM-Geidea Pay > Receipt Font-App Enhancement
+1949,ODM-Geidea Pay > Recon Integration-Java DLL
+1947,ODM-Geidea Pay > Recon Integration-Windows DLL
+1927,ODM-Geidea Pay > Recon Web Ecr Integration
+1955,ODM-Geidea Pay > Refrence Number-App Enhancement
+1935,ODM-Geidea Pay > Static Ip Config on POS for IRL and UAE
+1951,ODM-Geidea Pay > Tip Selection-UI Changes
+1957,ODM-Geidea Pay > Tips on POS
+1977,ODM-Geidea Pay > Trx Enable/Disble from TMS
+1929,ODM-Geidea Pay > Visa Installment
+1828,ODM-mada > ODM-mada-6.0.10
+1827,ODM-mada > ODM-mada-6.0.9
+1829,ODM-mada > Production Incidents
+2013,Onboarding > Compliance & Regulatory Enablement
+443,Onboarding > New  Onboarding > GPD-766
+2513,Onboarding > Production Issues
+2514,Onboarding > SPL Integration
+750,OPS > Active Directory (AD) Consolidation > Access
+747,OPS > Admin in Azure/Entra > Daily Support
+772,OPS > Admin Panel > Daily Support
+796,OPS > APEX > Daily Support
+720,OPS > APEX > New Alrajhi Merchant Migration
+722,OPS > APEX > New Banks Connectivity
+743,OPS > Archive Mail  > Daily Support
+758,OPS > Assets Management > Daily Support
+765,OPS > Avaya > Daily Support
+748,OPS > BeyondTrust > Remote Support
+760,OPS > Certificate Renewal > Daily Support
+2388,OPS > Change Management - Daily Support
+739,OPS > Cloud Watch  > Implementation
+767,OPS > Command Center > Daily Support
+749,OPS > DHCP Server > Access
+738,OPS > Email > Daily Support
+766,OPS > Enterprise Monitoring Platform > Daily Support
+734,OPS > ePOS  > Daily Support
+770,OPS > Finscan  > Daily Support
+745,OPS > Forticlient VPN > VPN Confirguration
+764,OPS > Genesys > Daily Support
+741,OPS > Grafana Cloud POC > POC
+740,OPS > Grafana Managed > Implementation
+730,OPS > GSDK > Daily Support
+752,OPS > Hardware Diagnosis  > Hardware Dinosess
+757,OPS > Incident Management > Daily Support
+763,OPS > Internal / External Communcations  > Daily Support
+2390,OPS > IT Governance & External Compliance Support
+2389,OPS > IT Governance & Internal Compliance Support
+2391,OPS > Jira Administration & Workflow Optimization
+737,OPS > Jira And Confluence > Daily Support
+753,OPS > Keycloak > Access
+744,OPS > ManageEnging > Remote Support
+746,OPS > MDM Black Bery > Daily Support
+769,OPS > MDM Migration > Daily Support
+731,OPS > Memento > Daily Support
+726,OPS > Merchant Account > Daily Support
+727,OPS > Merchant Portal > Daily Support
+771,OPS > Middleware B2B > Daily Support
+729,OPS > MMS > Daily Support
+724,OPS > Monitoring > Daily Support
+755,OPS > MPASS > Access / Daily Support
+761,OPS > MS Office > Daily Support
+742,OPS > Mydrive > Daily Support
+754,OPS > MyQ > Centerlaize Printers
+733,OPS > NSP > Daily Support
+780,OPS > OMA TMS > Daily Support
+725,OPS > Onboarding > Daily Support
+728,OPS > PGW > Daily Support
+759,OPS > Release Management > Daily Support
+773,OPS > RPA > Daily Support
+751,OPS > SAP Onboarding/Offboarding > Daily Support
+732,OPS > SAS AML > Daily Support
+768,OPS > SharePoint Migration > Daily Support
+756,OPS > Teams > Daily Support
+788,OPS > Timesheet > Daily Support
+779,OPS > TMS  > Daily Support
+762,OPS > Unifonic / Taqnyat > SMS
+1992,Orange Mobile Application > Delivery
+1825,Pax-mada > PAX-IM25
+1824,Pax-mada > Pax-mada-6.0.10
+1823,Pax-mada > Pax-mada-6.0.9
+1826,Pax-mada > Production Incidents
+2320,PayatTable  > QA Coordination
+1744,PayAtTable > Development
+1745,PayAtTable > PayAtTable Operation
+2325,PayatTable  > Hiring Strategy Discussions
+2324,PayatTable   > Backlog Prioritization
+2326,PayatTable   > Blocker Resolution
+2330,PayatTable   > CTO Standup
+2329,PayatTable   > Mentoring / Coaching
+2321,PayatTable   > Production Issue Handling
+2322,PayatTable   > Requirement Discussions
+2323,PayatTable   > Roadmap Planning
+2331,PayatTable   > Security Audit Coordination
+2327,PayatTable   > Sprint Tracking
+2328,PayatTable   > Technical Decision Making
+4699,PayAtTable->UAE->GPD-2471
+1861,Paycore Softpos > Softpos Paycore for KSA
+2449,PGW > [BE] Account Status Inquiry (ASI) > GDADV005-99085
+2458,PGW > [Cybersource] Integration - card payment > GDADV005-79495
+412,PGW > [R] Implement Jaywan Payment Method > GPD-924
+414,PGW > ADCB Touchpoints Integration on POS > GPD-1054
+432,PGW > AFT > GPD-1430
+363,PGW > AMEX Acquiring > GPD-832
+2525,PGW > AMEX as Payment Method > GPD-816
+375,PGW > API Gateway- Ecommerce Integration > GPD-891
+2529,PGW > Apple Pay integration > GDADV005-406 (GPD-220)
+450,PGW > Automated Bank Statement to ECR Customer Balance Reconciliation Tool
+415,PGW > BIN sponsorship - PG
+4582,PGW > CyberSource Payment Gateway Integration (Multi-Payment Processing) > GPD-2304
+4591,PGW > CyberSource Payment Gateway Integration (Multi-Payment Processing) > GPD-2304
+2447,PGW > Cybersource Processor: Phase 1 (Cards + Wallets) > GPD-377
+424,PGW > Enable Network Tokenization payments with MPGS
+421,PGW > Enable Network Tokenization payments with MPGS > GPD-1489
+2450,PGW > Enhancements [Q3] > GPD-911
+2444,PGW > Enhancements > GPD-1965
+2446,PGW > Enhancements across regions - Q3 > GPD-1089
+2018,PGW > Enhancements UAE [Q3] > GPD-911
+4619,PGW > FOR PGW Enhancements Q3 > GPD-2383
+4679,PGW > FX pricing for MCP - Multi Currency Processing > GPD-1498
+364,PGW > GPD-585 [PGW] - Saudi Payments PG Certification > GPD-585
+361,PGW > GPD-748 [PGW] - New Stack – Gaps > GPD-748
+379,PGW > Group IB > GPD-1772
+2011,PGW > Implement Jaywan payment method > GPD-924
+406,PGW > Integrate with more payment schemes (AMEX) > GPD-1089
+2448,PGW > IPN - InstaPay for Egypt > GPD-615
+4617,PGW > IPN Updates > GPD-2370
+407,PGW > IPN/ instapay  > GPD-1966
+2442,PGW > KSA Strategic State Phase1 > GPD-609
+455,PGW > Memento > GPD-913
+4701,PGW > Migrate PGW Backend Services from Microsoft SQL Server to PostgreSQL > GPD-2530
+4621,PGW > Mogo BNPL for CNP > GPD-928
+362,PGW > MPGS Implementation for Acquiring - Jira > GPD-1086
+425,PGW > Mswipe - Paycaps via Geidea (BIN sponsership) > GPD-1704
+2454,PGW -> multi-tenancy
+360,PGW > Multitenant PGW > GPD-894
+426,PGW > Passing of High Risk Indicator > GPD-1429
+2445,PGW > Pay By InvoiceID > GPD-1940
+2452,PGW > Pay by link Arcadia Enhancement > GPD-1889
+2019,PGW > Pay by link Arcadia Enhancements > GPD-1889
+2508,PGW > Pay by Reference (Geidea Code) > GPD-325
+427,PGW > PayFac / Dynamic Descriptor
+2004,PGW > PBI
+3532,PGW > PBL Enhancements [Merchant Portal ] > GPD-456
+2524,PGW > PBL UX/UI Enhancements > MEU-272
+428,PGW > PF / Aggregator > GPD-1515
+4585,PGW > PGW BAU Improvements 22Q4 > GDADV005-36351
+4655,PGW > PGW Network Tokenization With Banque Misr (MPGS) > GPD-2233
+4592,PGW > SAB Aggregation SMS Implementation > GPD-2205
+383,PGW > SAQR > GPD-1540
+430,PGW > SFTP File Report - Generic Settlement Report
+441,PGW > Smart routing - Paynment Gateway > GPD-754
+4588,PGW > UnionPay — Direct 3DS Integration > GPD-2336
+4593,PGW > UnionPay Direct 3DS Integration > GPD-2336
+4657,PGW> Aani CNP > GPD-2311
+4656,PGW> ValU BNPL Updates > GPD-2428
+4663,PGW->Al Tayer->GPD-2464
+4702,PGW->Migrate PGW to PostgreSQL->GPD-2530
+2384,POS - Geidea Terminal App
+2205,POS - Geidea Terminal App > POS - Geidea Terminal App - Client Communication
+2209,POS - Geidea Terminal App > POS - Geidea Terminal App - Code Quality & Governance
+2207,POS - Geidea Terminal App > POS - Geidea Terminal App - Planning & Documentations
+2208,POS - Geidea Terminal App > POS - Geidea Terminal App - Production Issues
+2210,POS - Geidea Terminal App > POS - Geidea Terminal App - Release Management
+2204,POS - Geidea Terminal App > POS - Geidea Terminal App - Team Management
+2211,POS - Geidea Terminal App > POS - Geidea Terminal App -Security & Compliance
+2206,POS - Geidea Terminal App > POS - Geidea Terminal App- Technical Leadership
+2221,POS - GeideaPay App > POS - GeideaPay App - Client Communication
+2225,POS - GeideaPay App > POS - GeideaPay App - Code Quality & Governance
+2223,POS - GeideaPay App > POS - GeideaPay App - Planning & Documentations
+2224,POS - GeideaPay App > POS - GeideaPay App - Production Issues
+2226,POS - GeideaPay App > POS - GeideaPay App - Release Management
+2220,POS - GeideaPay App > POS - GeideaPay App - Team Management
+2222,POS - GeideaPay App > POS - GeideaPay App - Technical Leadership
+2227,POS - GeideaPay App > POS - GeideaPay App -Security & Compliance
+2197,POS - mada > POS - mada - Client Communication
+2201,POS - mada > POS - mada - Code Quality & Governance
+2199,POS - mada > POS - mada - Planning & Documentations
+2200,POS - mada > POS - mada - Production Issues
+2202,POS - mada > POS - mada - Release Management
+2196,POS - mada > POS - mada - Team Management
+2198,POS - mada > POS - mada - Technical Leadership
+2203,POS - mada > POS - mada -Security & Compliance
+2383,POS - mada app
+2213,POS - meeza App  > POS - meeza App - Client Communication
+2217,POS - meeza App  > POS - meeza App - Code Quality & Governance
+2215,POS - meeza App  > POS - meeza App - Planning & Documentations
+2216,POS - meeza App  > POS - meeza App - Production Issues
+2218,POS - meeza App  > POS - meeza App - Release Management
+2212,POS - meeza App  > POS - meeza App - Team Management
+2214,POS - meeza App  > POS - meeza App - Technical Leadership
+2219,POS - meeza App  > POS - meeza App -Security & Compliance
+2386,POS - Meeza App > GMB
+2387,POS - Payment App > GBB
+398,POS >   POS- Manual Sim switching
+411,POS > AANI > GPD-1884
+1993,POS > Add invoice number in stand-alone > GPD-1902
+1108,POS > AFD Acquiring > GPD-1945
+1105,POS > AFD MSP > GPD-1944
+1107,POS > Al Inma Nonpayment app phase -2 > GPD-1959
+2493,POS > Alipay UI Merchant onboarding > GPD-617
+1103,POS > AMEX Acquiring > GPD-832
+387,POS > Amex Installment > GPD-1154
+1991,POS > APM - Pay By Link > GPD-1835
+2486,POS > ATM CashIn/Out > GPD-538
+1402,POS > Banks & admin Dashboard including POS & SoftPOS- POS scope > GPD-1655
+416,POS > BIN sponsorship - POS > GPD-1688
+808,POS > BM ( Amex certification ) & any changes
+2494,POS > BNPL CP UI/UX and receipt revamp >
+2484,POS > BP By Card
+2000,POS > Cash option (POS) > GPD-1513
+1109,POS > Changing QR print screen wait time on POS > GPD-738
+373,POS > CNP SDK > GPD-759
+417,POS > CP- AANI Wallet as payment method > GPD-684
+418,POS > CP- Jaywan cards as payment method > GPD-675
+1998,POS > CUP co- branded cards > GPD-1280
+809,POS > Damen Payment APP- CP Acceptance features
+358,POS > DCC (CP) > GPD-1487
+437,"POS > dual screen devices availability (sunmi P3 dual, ODM P08) > GPD-1764"
+1990,POS > Dual Screen POS launch in UAE-Sunmi P3H > GPD-1764
+1995,POS > Enhance merchant password configuration on POS > GPD-1988
+1401,POS > Enhancement to migrate from one Acquiring bank to another > GPD-1030
+803,POS > EPP UI + receipt > GPD-1806
+447,POS > E-Receipts > POS-1
+371,POS > Fraud detection tools for GBB. > GPD-1943
+422,POS > FX mark up charging capability
+372,POS > GBB Portal > GPD-1352
+806,POS > Geidea APP on P3 (Acceptance & Bill Payment) > GPD-1908
+2478,POS > Geidea Invoices > PAB-3528
+403,POS > Geidea Payment terminal & Geidea POS integration issue
+1102,POS > Geidea Terminal app- Phase 1 > GPD-1656
+1104,POS > Geidea Terminal app- Phase 2 > GPD-1978
+1403,POS > GMB softPOS Geidea app require to connect to new stack > GPD-1949
+380,POS > Group IB > GPD-1772
+2001,POS > Host integration with Unattended Payment module (WizPOS - Nuvei/Loop) > GPD 686
+800,POS > Installments regrouping > GPD 1917
+359,POS > Instant Payout to be 7 days instead of 5 days standard payout. > GPD-1970
+1989,POS > Integration of 3C/Planet Payment hospitality solution in UAE > GPD-674
+377,POS > International schemes on acquiring > GDADV005-3570
+368,POS > JCB Acquiring > GPD-1319
+4697,POS > Loyalty DSquares Vouchers Redemption > GPD-2128
+1996,POS > Making card validation configurable for refunds on POS > GPD-1960
+2480,POS > Meeza Digital Migration from PGW BE to Middleware > GDADV005-103432
+456,POS > Memento
+2466,POS > MOI TITD integration project >
+378,POS > Near Pay > GPD-1348
+1106,POS > PAX IM25 TMS1 Certification > GPD-1666
+805,POS > QNB GBB App > GPD-1909
+1997,POS > QR Acceptance  in integrated mode > GPD-688
+367,POS > QR Pay at Table > GPD-1961
+802,POS > Reports regrouping > GPD-1917
+799,POS > Reversal Experience Cleanup + unviability Failover > GPD 1829
+804,POS > SoftPOS Egypt Inhouse > GPD-1118
+389,POS > Split / Multi-Vendor > GPD-589
+1999,"POS > Tip enhancements ( 2CRs) > GPD-1689,1691"
+1404,POS > To develop and certify the SUnmi Dual screen POS terminal for KSA > GPD-2032
+433,POS > UAM for refunds on POS > MEU-284
+807,POS > Unified Geidea TMS for GBB (EGY) > GPD-1287
+1994,POS > Using same RRN for linked transactions - for DCC reporting > GPD-1983
+386,POS > VISA Installment > GPD-498GPD-1133
+801,POS >Transaction History redesign > GPD-1917
+1852,POS ECR Integration > ODM ECR Integration
+1850,POS ECR Integration > PAX ECR Integration
+1851,POS ECR Integration > SUNMI ECR Integration
+2246,POS-ODM>GeideaPay
+2245,POS-ODM>INT Sales
+2247,POS-SUNMI>GeideaPay
+2250,POSTILION > 3C PlanetPayment Integration and certification > GPD-1463
+2252,POSTILION > AFT > GPD-1430
+2253,POSTILION > Airline Data
+2267,POSTILION > Apex Notifier and PTLF enhancements
+413,Postilion > B2B Payments (MAID & MVV) & Vendor Payouts > GPD-865
+2257,POSTILION > BIN Block
+475,POSTILION > Certification
+504,POSTILION > Certifications -  - Samsung/Google Pay
+509,POSTILION > Certifications  mSwipe
+507,POSTILION > Certifications Jaywan
+2382,POSTILION > DC Migration
+495,POSTILION > DR Migration
+503,POSTILION > DR Migration - AWS OUTPOST
+513,POSTILION > Emergency Infra Migration TEST
+497,POSTILION > Internal Postilion Ad-hoc Reports
+492,POSTILION > Internal Team Connect
+477,POSTILION > L3 Certifications and support
+2265,POSTILION > MasterCard Compliance Updates
+2266,POSTILION > Merchant Portal Refund Integration
+2490,Postilion > Mogo BNPL for CP > GPD-1149
+508,POSTILION > MPGS Migration + PVT
+505,POSTILION > MPGS Testing
+2376,POSTILION > Omnichannel Acquiring
+499,POSTILION > On-Call Support
+514,POSTILION > PCI Remediation
+490,POSTILION > Postilion Automation
+488,POSTILION > Postilion Development (Enhancement)
+501,POSTILION > Pre certification testing
+493,POSTILION > Prod Projects
+486,POSTILION > Production Implementation
+483,POSTILION > Production Incident and Support
+480,POSTILION > Testing Support
+2251,POSTILION > UnionPay Cobranded Card Routing Support > GPD-1280
+2264,POSTILION > Visa Collection Only Mandate
+510,POSTILION > VISA VCX Migration
+506,POSTILION >SPG Project
+4540,Postilion> PCI Remediation
+4541,Postilion> Production Incident and Support
+484,QE Automation & Performance Frameworks
+479,QE Governance & Operations - 2026
+482,QE Process & Enablement - 2026
+4681,Risk & Compliance > KSA SAS DR
+1860,SADAD > SADAD on PAX
+4542,SAMA DMS
+4673,Scheme Fee Optimization
+402,SDK > CNP SDK > GPD-209 || GPD-214
+446,SDK > CNP SDK > GPD-759
+410,SDK > Flutter SDK - Waseela > GPD-1100
+2515,SDK > Payment Development
+2482,SDK > React Valu
+409,SDK > Vezetta - Android SDK > GPD-1101
+4700,SDK->Tabby & Tamara KSA->GPD-2559
+2238,SIM Management>Lebara SIM Management
+2239,SIM Management>STC-Afaqy SIM Management.
+2237,SIM Management>Zain SIM Management
+2236,SIM Management-Mobily SIM Management.
+2171,SIM Production Incidences > M2M SIM - Production Incidences
+2049,Site Visit > Customer visit
+2240,Skysale>PAX-KSA-Skysale
+2229,SoftPOS - mada > SoftPOS - mada - Client Communication
+2233,SoftPOS - mada > SoftPOS - mada - Code Quality & Governance
+2232,SoftPOS - mada > SoftPOS - mada - Production Issues
+2234,SoftPOS - mada > SoftPOS - mada - Release Management
+2228,SoftPOS - mada > SoftPOS - mada - Team Management
+2230,SoftPOS - mada > SoftPOS - mada - Technical Leadership
+2231,SoftPOS - mada > SoftPOS- mada - Planning & Documentations
+2235,SoftPOS - mada > SoftPOS- mada -Security & Compliance
+2385,SoftPOS - mada App
+442,SoftPOS > Geidea- SOFTPOS- MPOC certificate > GPD-1143
+381,SoftPOS > Group IB > GPD-1772
+457,SoftPOS > Memento
+449,SoftPOS > OMA- SOFTPOS- AMEX cards > GPD-1146
+438,SoftPOS > OMA- SOFTPOS- Jaywan cards > GPD-1270
+388,SoftPOS > softPOS - In house > GPD-1648
+2258,STC>Invoice Validation
+2262,STC>PR & Invoice Payment
+2190,SUNMI - App2App  > SUNMI - App2App: GeideaPOSBridge
+2191,Sunmi - App2App > Sunmi - App2App: Production Issues
+2184,SUNMI - BM > SUNMI - BM: CP
+2186,SUNMI - BM > SUNMI - BM: IPN
+2187,SUNMI - BM > Sunmi - BM: Production Issues
+2185,SUNMI - BM > SUNMI - BM: UPG
+2188,SUNMI - Damen > SUNMI - Damen: CP
+2189,SUNMI - Damen > Sunmi - Damen: Production Issues
+2179,Sunmi - Meeza >  Sunmi - Meeza App: Production Issues
+2173,Sunmi - Meeza > Sunmi - Meeza App: BNPL
+2174,Sunmi - Meeza > Sunmi - Meeza App: BP
+2172,Sunmi - Meeza > Sunmi - Meeza App: CP
+2177,Sunmi - Meeza > Sunmi - Meeza App: IPN
+2178,Sunmi - Meeza > Sunmi - Meeza App: MEEZAQR
+2176,Sunmi - Meeza > Sunmi - Meeza App: PBL
+2175,Sunmi - Meeza > Sunmi - Meeza App: VAS
+436,Sunmi > ADCB Touch points redemption > GPD-1055
+2195,SUNMI- CIB > Sunmi - CIB: Production Issues
+2192,SUNMI- CIB > SUNMI- CIB: CP
+2194,SUNMI- CIB > SUNMI- CIB: IPN
+2193,SUNMI- CIB > SUNMI- CIB: UPG
+2249,SUNMI GeideaPay>Integration
+2242,SUNMI GeideaPay>Production Incidents
+2244,SUNMI GeideaPay>QR App
+2183,SUNMI- QNB > Sunmi - QNB: Production Issues
+2180,SUNMI- QNB > SUNMI- QNB: CP
+2182,SUNMI- QNB > SUNMI- QNB: IPN
+2181,SUNMI- QNB > SUNMI- QNB: UPG
+1920,SUNMI-ARAB > ARAB-GBB-IPN
+1919,SUNMI-ARAB > Implemented Location services to fetch the terminal Location
+1923,SUNMI-BankMisr > BankMisr-GBB-CP
+1922,SUNMI-BankMisr > Bug Fixes & Validation of show The decline reason over the screen
+1921,SUNMI-BankMisr > Bug Fixes & Validation of show verified by consumer device even using physical card
+1916,"SUNMI-Deman >  Changes to Modify the Summary and Details Reports, Batch History, Duplicates UI"
+1915,SUNMI-Deman > Core Financial KeyExchange Process
+1918,SUNMI-Deman > Core Financial Transaction Atm CashIn/CashOut
+1914,SUNMI-Deman > Core Financial Transactions Reversal
+1911,SUNMI-Deman > Deman-GBB-Phase1-CP
+1917,SUNMI-Deman > Incorporate the Damen UI changes to app replicate the same
+1966,SUNMI-Geidea Pay > Auto Recon-App Enhancement
+1940,SUNMI-Geidea Pay > Cash transaction
+1962,SUNMI-Geidea Pay > Cup (Co-brand) Phase 1
+1964,SUNMI-Geidea Pay > Cup (Co-brand) Phase 2
+1938,SUNMI-Geidea Pay > Date and Time update
+1969,SUNMI-Geidea Pay > DBA Name-App Enhancement
+1971,SUNMI-Geidea Pay > Digital QR Receipt
+1984,SUNMI-Geidea Pay > Fetch Last Transaction - Web Ecr
+1982,SUNMI-Geidea Pay > Fetch Last Transaction- JAVA DLL
+1980,SUNMI-Geidea Pay > Fetch Last Transaction- Windows DLL
+1978,SUNMI-Geidea Pay > Fetch Last Transaction-SDK
+1936,SUNMI-Geidea Pay > Iping Implementation
+1930,SUNMI-Geidea Pay > Jaywan Certification
+1986,SUNMI-Geidea Pay > Merchant Receipt Control
+1932,SUNMI-Geidea Pay > Offline Auto Recon
+1960,SUNMI-Geidea Pay > Order Id-App Enhancement
+1958,SUNMI-Geidea Pay > P3H Dual Screen
+1942,SUNMI-Geidea Pay > QR Acceptance-JAVA integration
+1967,SUNMI-Geidea Pay > QR Acceptance-SDK  integration
+1952,SUNMI-Geidea Pay > QR Acceptance-Web ECR integration
+1944,SUNMI-Geidea Pay > QR Acceptance-Windows integration
+1974,SUNMI-Geidea Pay > QR in Merchant Reciept
+1948,SUNMI-Geidea Pay > Recon Integration-Java DLL
+1946,SUNMI-Geidea Pay > Recon Integration-Windows DLL
+1926,SUNMI-Geidea Pay > Recon Web Ecr Integration
+1954,SUNMI-Geidea Pay > Refrence Number-App Enhancement
+1934,SUNMI-Geidea Pay > Static Ip Config on POS for IRL and UAE
+1950,SUNMI-Geidea Pay > Tip Selection-UI Changes
+1956,SUNMI-Geidea Pay > Tips on POS
+1976,SUNMI-Geidea Pay > Trx Enable/Disble from TMS
+1928,SUNMI-Geidea Pay > Visa Installment
+1833,SUNMI-mada > Production Incidents
+1831,SUNMI-mada > SAMA EFTPOS 6.0.10 RN-1 + RN-3 Specs Updates for SUNMI Devices. SAMA EFTPOS 6.0.10 RN-2 including DCC Specs Updates for SUNMI Devices.
+1830,"SUNMI-mada > SAMA EFTPOS version 6.0.9 in SUNMI Devices. It also includes continuous product improvements, aligned with business and product needs."
+1832,SUNMI-mada > SUNMI P3 Dual Screen
+1877,SUNMI-Meeza > BNPL: Add Transaction History for Souhoola and Aman
+1878,SUNMI-Meeza > BNPL: Enhancing the application for   by enhancement Plan for dynamic BNPL
+1876,SUNMI-Meeza > BNPL: Forsa
+1881,SUNMI-Meeza > BP: enhance partial lookup
+1884,SUNMI-Meeza > BP: Enhance Sahl Retry confirmation/reversal mechanism
+1885,SUNMI-Meeza > BP: Fix BP connection issue on A11
+1879,SUNMI-Meeza > BP: Offline Bills Hub
+1883,SUNMI-Meeza > BP: Orange Cash In / Cash out
+1880,SUNMI-Meeza > BP: remove terminal authentication - Solving CS Concerns
+1882,SUNMI-Meeza > BP: Service-Level Toggle to enable/disable Reprint API
+1887,SUNMI-Meeza > GMB-BillPayments
+1886,SUNMI-Meeza > Meeza-GMB-BillPayments
+1866,SUNMI-Meeza > Meeza-GMB-CP
+1864,SUNMI-Meeza > Meeza-GMB-VAS
+1925,SUNMI-POS Bridge > Integrating the App2App Between Meeza App & Geidea POS Bridge
+1924,SUNMI-POS Bridge > ntegrating the Connection Between Geidea
+1899,SUNMI-QNB > Certification issue fix Pressing multiple icons
+1896,SUNMI-QNB > Connectivity Manager (SIM Switch & Connection Purpose)
+1903,SUNMI-QNB > Core Financial KeyExchange Process
+1897,SUNMI-QNB > Core Financial settlement proccess
+1892,SUNMI-QNB > Core Financial Transactions Moto
+1891,SUNMI-QNB > Core Financial Transactions Offline Sale
+1890,SUNMI-QNB > Core Financial Transactions PreAuth
+1893,SUNMI-QNB > Core Financial Transactions Refund
+1895,SUNMI-QNB > Core Financial Transactions Sale
+1894,SUNMI-QNB > Core Financial Transactions Void
+1889,SUNMI-QNB > CP: Core Financial Transactions Reversal
+1898,SUNMI-QNB > Developing the New applicaiton for multi App / Multi Currency
+1901,SUNMI-QNB > Implemented to Manage batchID from the POS side
+1900,SUNMI-QNB > Implemented to Manage Stan Number manually in the Admin menu
+1902,SUNMI-QNB > Implemented to use master/session key
+1904,SUNMI-QNB > QNB-GBB-CP
+1906,SUNMI-QNB > QNB-GBB-DCC
+1907,SUNMI-QNB > QNB-GBB-INSTALLMENT
+1909,SUNMI-QNB > QNB-GBB-IPN
+1908,SUNMI-QNB > QNB-GBB-TMS
+1910,SUNMI-QNB > QNB-GBB-UPG
+1858,Tahseel > PAX-ARB-Tahseel
+4594,Tahseel Alrajhi -Web ECR
+1859,Tahweel > PAX-ARB-Tahweel
+4581,Team Outings-Team Leisure[ Team Lunch & Dinner]
+473,Technology Budgeting & Financial Planning
+470,Technology Governance
+1713,Terminal app > Android - Geidea Terminal application
+1714,Terminal app > Keycloak - Password Less Feature
+2003,Timesheet > GPD-2019
+2308,TMS  > QA Coordination
+1741,TMS > ALEX TMS
+1740,TMS > ARAB TMS
+1739,TMS > BM TMS
+1736,TMS > Geidea TMS Application
+1738,TMS > Geidea TMS Application - Unified TMS
+1742,TMS > International TMS
+1743,TMS > QNB TMS
+2313,TMS  > Hiring Strategy Discussions
+2312,TMS   > Backlog Prioritization
+2314,TMS   > Blocker Resolution
+2318,TMS   > CTO Standup
+2317,TMS   > Mentoring / Coaching
+2309,TMS   > Production Issue Handling
+2310,TMS   > Requirement Discussions
+2311,TMS   > Roadmap Planning
+2319,TMS   > Security Audit Coordination
+2315,TMS   > Sprint Tracking
+2316,TMS   > Technical Decision Making
+3543,TMS>Geidea TMS Application
+3544,TMS>Geidea TMS Application
+3548,TMS>Geidea TMS Application - For Alex Bank
+3547,TMS>Geidea TMS Application - For ARAB
+3549,TMS>Geidea TMS Application - For International
+3545,TMS>Geidea TMS Application - Unified TMS
+3546,TMS>Geidea TMS Application-For BM
+2530,TMS-Geidea TMS Application
+4654,UAE SDK Implementation
+4539,Unified POS Payment App- Payment App
+369,VAS  > Tabby & Tamara as payment methods > GPD-883
+2441,VAS > [KSA] VAS - BNPL - OTP flow elimination > GPD-2027
+4627,VAS > ADCB Touch Points Redemption > GPD-2324
+399,VAS > Add more BNPLS
+2492,VAS > Alipay UI Merchant onboarding > GPD-617
+444,VAS > AliPay+ (CNP) > GPD-617
+400,VAS > ATM Cashin/ out > GPD-987
+401,VAS > Bill Paymet By Card > GPD-1196
+376,VAS > BNPL - Tamara - Refund > GPD-1725
+374,VAS > BNPL (Tabby / Tamara) > GPD-883
+445,VAS > BNPL aggregation > GPD-1268
+4584,VAS > BNPL auto-onboarding  >   GPD-2123
+2496,VAS > BNPL CP UI/UX and receipt revamp >
+4590,VAS > BNPL OTP Elimination > GPD-2093
+4620,VAS > BP SDK > GPD-800
+419,VAS > DCC Payout reports > GPD-823
+423,VAS > ENBD Points Redemption > GPD-1923
+2477,VAS > Geidea Invoices > PAB-3528
+4628,VAS > Geidea Outs > GPD-797
+404,VAS > Instant Discounts > GPD-1635
+405,VAS > instant payouts (cashout) > GPD-627
+2510,VAS > Loyalty - Performance and UI/UX enhancement > GPD-1810
+4629,VAS > Madfu BNPL > GPD-616
+2488,VAS > Mogo BNPL for CP > GPD-1149
+4682,VAS > Premium Card > GPD-2429
+2467,VAS > SAQR QR implementation - AliPay Plus integrations > GPD-1130
+408,VAS > Value PF > GPD-653
+434,VAS > WECHAT PAY (CNP) > GPD-1692
+2110,Vendlink > MDB
+4544,WEB ECR - DirectLink
+4607,WEB ECR - TCP/IP
+4608,WEB ECR - USB Integration (EGY)
+3538,WEB ECR Integration - API Based Integration
+3537,WEB ECR Integration - Web Integration(USB)
+2152,WEB Integration > WEB ECR Integration Integration
+1813,WEB Integration > WEB Integration (USB) > DCC
+1814,WEB Integration > WEB Integration (Wi-Fi) > DCC
+1817,WEB Integration > WEB Integration-API > OTTU
+2039,WEB Integration > WEB-ECR (USB)
+2080,WEB Integration > Web-ECR (Wi-Fi)
+3536,Web Integration->Web Integration(WIFI)
+1748,Webcore MDT > MDT Activity & Migiration
+1751,Webcore Prod Release > Webcore App Production Release
+2255,Zain>Invoice Validation
+2260,Zain>PR & Invoice Payment

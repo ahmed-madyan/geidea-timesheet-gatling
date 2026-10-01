@@ -1,0 +1,9 @@
+{
+  "department": "#{Department}",
+  "country": "#{Country}",
+  "project": "#{Project}",
+  "taskName": "#{Task Name}",
+  "description": "#{Details / Description}",
+  "workDate": "#{Date}",
+  "hours": #{Hours}
+}

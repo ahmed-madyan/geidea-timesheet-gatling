@@ -1,0 +1,5 @@
+Department,Country,Project,ProjectId,Task Name,Details / Description,Date,Hours
+Engineering,EGY,QE Automation & Performance Frameworks,484,Gatling scenario design,Build employee task-log simulation,2026-10-01,1
+CIO - Infra,KSA,Infra > TimeSheet > Deployment Infra,615,Timesheet environment check,Confirm task log path on the target host,2026-10-01,1
+CIO - Operations,UAE,OPS > Timesheet > Daily Support,788,Approval flow support,Review pending task list for bulk approve,2026-10-01,1
+Research and Develop,ALL,Technology Governance,470,Load profile review,Agree spike profile and SLA checks,2026-10-01,1

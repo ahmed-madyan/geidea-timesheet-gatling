@@ -1,0 +1,5 @@
+{
+  "taskIds": [#{taskIds}],
+  "decision": "Approved",
+  "comment": "Bulk approval"
+}

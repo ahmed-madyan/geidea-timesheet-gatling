@@ -1,0 +1,38 @@
+<testsuite name="simulations.timesheet.approval.ManagerBulkApproveSimulation" tests="12" errors="0" failures="0" time="0">
+  <testcase name="Global: 95th percentile of response time is less than 3000.0" status="true" time="0">
+  <system-out>Global: 95th percentile of response time is less than 3000.0</system-out>
+</testcase>
+<testcase name="Global: 99th percentile of response time is less than 5000.0" status="true" time="0">
+  <system-out>Global: 99th percentile of response time is less than 5000.0</system-out>
+</testcase>
+<testcase name="Global: mean of response time is less than 2000.0" status="true" time="0">
+  <system-out>Global: mean of response time is less than 2000.0</system-out>
+</testcase>
+<testcase name="Global: max of response time is less than 10000.0" status="true" time="0">
+  <system-out>Global: max of response time is less than 10000.0</system-out>
+</testcase>
+<testcase name="Global: percentage of successful events is greater than 99.0" status="true" time="0">
+  <system-out>Global: percentage of successful events is greater than 99.0</system-out>
+</testcase>
+<testcase name="Global: count of failed events is less than 10.0" status="true" time="0">
+  <system-out>Global: count of failed events is less than 10.0</system-out>
+</testcase>
+<testcase name="Timesheet | Open login: 95th percentile of response time is less than 3000.0" status="true" time="0">
+  <system-out>Timesheet | Open login: 95th percentile of response time is less than 3000.0</system-out>
+</testcase>
+<testcase name="Timesheet | Sign in: 95th percentile of response time is less than 3000.0" status="true" time="0">
+  <system-out>Timesheet | Sign in: 95th percentile of response time is less than 3000.0</system-out>
+</testcase>
+<testcase name="Timesheet | Sign in Redirect 1: 95th percentile of response time is less than 3000.0" status="true" time="0">
+  <system-out>Timesheet | Sign in Redirect 1: 95th percentile of response time is less than 3000.0</system-out>
+</testcase>
+<testcase name="Timesheet | Open approvals: 95th percentile of response time is less than 3000.0" status="true" time="0">
+  <system-out>Timesheet | Open approvals: 95th percentile of response time is less than 3000.0</system-out>
+</testcase>
+<testcase name="Timesheet | List pending tasks: 95th percentile of response time is less than 3000.0" status="true" time="0">
+  <system-out>Timesheet | List pending tasks: 95th percentile of response time is less than 3000.0</system-out>
+</testcase>
+<testcase name="Timesheet | Bulk approve: 95th percentile of response time is less than 3000.0" status="true" time="0">
+  <system-out>Timesheet | Bulk approve: 95th percentile of response time is less than 3000.0</system-out>
+</testcase>
+</testsuite>

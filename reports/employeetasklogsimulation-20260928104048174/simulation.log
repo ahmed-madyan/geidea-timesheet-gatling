@@ -1,0 +1,16 @@
+ASSERTION	AAEDAAEFAAAAAAAAwFdAAwAAAAAAAHCnQA==
+ASSERTION	AAEDAAEFAAAAAAAAwFhAAwAAAAAAAIizQA==
+ASSERTION	AAEDAAEDAwAAAAAAAECfQA==
+ASSERTION	AAEDAAECAwAAAAAAAIjDQA==
+ASSERTION	AAECAAIEAAAAAAAAwFhA
+ASSERTION	AAEBAAMDAAAAAAAAACRA
+ASSERTION	AAIDAAEFAAAAAAAAwFdAAwAAAAAAAHCnQA==
+RUN	simulations.timesheet.tasks.EmployeeTaskLogSimulation	employeetasklogsimulation	1790592048174	 	3.11.5
+USER	Employee logs every task variety	START	1790592049714
+REQUEST		Timesheet | Open login	1790592049721	1790592050258	OK	 
+REQUEST		Timesheet | Sign in	1790592050300	1790592051150	OK	 
+REQUEST		Timesheet | Sign in Redirect 1	1790592051153	1790592051944	OK	 
+REQUEST		Timesheet | Log Gatling scenario design	1790592051947	1790592052058	KO	status.find.in(200,201,204), but actually found 404
+REQUEST		Timesheet | Log Timesheet environment check	1790592054066	1790592054174	KO	status.find.in(200,201,204), but actually found 404
+REQUEST		Timesheet | Log Approval flow support	1790592056179	1790592056286	KO	status.find.in(200,201,204), but actually found 404
+REQUEST		Timesheet | Log Load profile review	1790592058292	1790592058409	KO	status.find.in(200,201,204), but actually found 404
