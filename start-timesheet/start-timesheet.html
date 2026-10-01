@@ -221,10 +221,6 @@
           <label for="password">Password</label>
           <input id="password" required type="password" autocomplete="current-password">
         </div>
-        <div>
-          <label for="github-token">GitHub token</label>
-          <input id="github-token" required type="password" autocomplete="off" spellcheck="false" value="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">
-        </div>
       </div>
 
       <div id="csv-block">
@@ -271,11 +267,10 @@
     const REPO = "geidea-timesheet-gatling";
     const WORKFLOW = "timesheet.yml";
     const BRANCH = "master";
+    const DISPATCH_TOKEN = "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";
 
     const saved = JSON.parse(localStorage.getItem("timesheet-ci") || "{}");
     if (saved.username) document.getElementById("username").value = saved.username;
-    const savedToken = localStorage.getItem("timesheet-github-token") || "";
-    if (savedToken) document.getElementById("github-token").value = savedToken;
     if (saved.simulation) {
       const choice = document.querySelector(`input[name=simulation][value="${saved.simulation}"]`);
       if (choice) choice.checked = true;
@@ -556,14 +551,7 @@
       const password = document.getElementById("password").value;
       const simulation = selectedSimulation();
 
-      const dispatchToken = document.getElementById("github-token").value.trim();
       localStorage.setItem("timesheet-ci", JSON.stringify({ username, simulation }));
-      if (dispatchToken) localStorage.setItem("timesheet-github-token", dispatchToken);
-
-      if (!dispatchToken) {
-        setStatus("err", "Enter a GitHub token with the repo and workflow scopes.");
-        return;
-      }
       const inputs = {
         simulation,
         timesheet_username: username,
@@ -589,7 +577,7 @@
       const started = new Date();
       try {
         const response = await github(
-          dispatchToken,
+          DISPATCH_TOKEN,
           `/repos/${OWNER}/${REPO}/actions/workflows/${WORKFLOW}/dispatches`,
           {
             method: "POST",
@@ -600,11 +588,11 @@
         if (response.status !== 204) {
           const payload = await response.json().catch(() => ({}));
           if (response.status === 401) {
-            throw new Error("GitHub rejected this token. Create a new one with the repo and workflow scopes, and paste it in GitHub token. Do not put it in the page file.");
+            throw new Error("GitHub rejected the token stored in this page.");
           }
           throw new Error(payload.message || `GitHub returned ${response.status}`);
         }
-        await watchRun(dispatchToken, started);
+        await watchRun(DISPATCH_TOKEN, started);
       } catch (error) {
         setStatus("err", error.message);
       } finally {
