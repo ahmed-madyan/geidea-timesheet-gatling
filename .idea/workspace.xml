@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d9814b37-6987-4dc5-baac-f8c010ba02b7" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/ahmed-madyan/geidea-timesheet-gatling.git",
+    "accountId": "cf86fe6f-9f4b-4faf-bb7d-dc9225d5800f"
+  }
+}]]></component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0000000000000007" />
+      <entry key="MS500" value="1.0009354836115456" />
+      <entry key="S2" value="1.1748876112676934" />
+      <entry key="S5" value="1.4978558542867362" />
+      <entry key="S10" value="1.7055890123058437" />
+      <entry key="S30" value="1.8902608385431074" />
+      <entry key="S60" value="1.9435363472294576" />
+      <entry key="M2" value="1.971357991283058" />
+      <entry key="M5" value="1.9884432203654998" />
+      <entry key="M10" value="1.9942049602400047" />
+      <entry key="M15" value="1.9961669715235204" />
+      <entry key="M30" value="2.006313330208058" />
+      <entry key="H1" value="2.127405810849707" />
+      <entry key="H2" value="2.5061507732520605" />
+      <entry key="H4" value="3.0063371525090465" />
+      <entry key="D1" value="3.783697240626277" />
+      <entry key="W1" value="3.9675637478491055" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="0.0" />
+      <entry key="S30" value="0.0" />
+      <entry key="S60" value="0.0" />
+      <entry key="M2" value="0.0" />
+      <entry key="M5" value="0.0" />
+      <entry key="M10" value="0.0" />
+      <entry key="M15" value="0.0" />
+      <entry key="M30" value="0.0" />
+      <entry key="H1" value="0.0" />
+      <entry key="H2" value="0.0" />
+      <entry key="H4" value="0.0" />
+      <entry key="D1" value="0.0" />
+      <entry key="W1" value="0.0" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.9659363289248462" />
+      <entry key="MS500" value="0.9940202301859373" />
+      <entry key="S2" value="1.1727929531528982" />
+      <entry key="S5" value="1.496749014592749" />
+      <entry key="S10" value="1.7049491135565127" />
+      <entry key="S30" value="1.8900219128818507" />
+      <entry key="S60" value="1.9434131879433068" />
+      <entry key="M2" value="1.9712954464483001" />
+      <entry key="M5" value="1.9884179653415728" />
+      <entry key="M10" value="1.9941922924693445" />
+      <entry key="M15" value="1.996158474760117" />
+      <entry key="M30" value="2.006304215154725" />
+      <entry key="H1" value="2.127366827403311" />
+      <entry key="H2" value="2.5060780886821767" />
+      <entry key="H4" value="3.006266027930069" />
+      <entry key="D1" value="3.7836764396646503" />
+      <entry key="W1" value="3.967560475042399" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3Jx6YcL4tT7o9gg7Bt6AzX632xv" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "master",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/ahmed.madayn/Documents/GitHub/geidea-timesheet-gatling",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "to.speed.mode.migration.done": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-a203e0a19954-intellij.indexing.shared.core-IU-262.10968.63" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.10968.63" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d9814b37-6987-4dc5-baac-f8c010ba02b7" name="Changes" comment="" />
+      <created>1790590420520</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1790590420520</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
