@@ -267,7 +267,7 @@
     const REPO = "geidea-timesheet-gatling";
     const WORKFLOW = "timesheet.yml";
     const BRANCH = "master";
-    const DISPATCH_TOKEN = "";
+    const DISPATCH_TOKEN = "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";
 
     const saved = JSON.parse(localStorage.getItem("timesheet-ci") || "{}");
     if (saved.username) document.getElementById("username").value = saved.username;
@@ -625,118 +625,39 @@
       return minutes + ":" + String(seconds % 60).padStart(2, "0");
     }
 
-    function renderRun(id, webUrl, pipelineStatus, jobs, trace, started) {
-      const link = webUrl ? ` <a href="${webUrl}">Open pipeline</a>` : "";
-      const tasks = [...trace.matchAll(/^.*\| project \d+ \| .+$/gm)].map((match) => match[0].trim());
-      const summaryMatch = trace.match(/The user .+ logged in successfully\.[^\n]*/);
-      const job = jobs.find((item) => item.name === "employee-task-log" || item.name === "manager-bulk-approve");
-      const jobStatus = job ? `${job.name} is ${job.status}` : "waiting for the job";
-      const rows = tasks.map((line) => escapeHtml(line)).join("<br>");
-      const headline = summaryMatch
-        ? escapeHtml(summaryMatch[0])
-        : `Pipeline #${id} is ${pipelineStatus}. ${jobStatus}.`;
-      const finished = ["success", "failed", "canceled", "skipped"].includes(pipelineStatus);
-      const kind = !finished ? "" : (pipelineStatus === "success" && !tasks.some((line) => line.includes("not logged")) ? "ok" : "err");
-      setStatus(kind, `${headline}${link}${rows ? `<br>${rows}` : ""}`);
-      return finished;
-    }
-
-    function parseLive(text) {
-      const phase = ((text.match(/^phase: (.+)$/m) || [])[1] || "finished").trim();
-      const body = text
-        .replace(/^pipeline:.*\r?\n/, "")
-        .replace(/^phase:.*\r?\n/, "")
-        .trim();
-      return { phase, body };
-    }
-
-    function showLive(id, webUrl, live, started) {
-      const link = webUrl ? ` <a href="${webUrl}">Open pipeline</a>` : "";
-      const lines = live.body.split(/\r?\n/).filter((line) => line.trim());
-      const summary = lines[0] || `Pipeline #${id} is ${live.phase}.`;
-      const tasks = lines.slice(1).map((line) => escapeHtml(line)).join("<br>");
-      const done = ["finished", "success", "failed"].includes(live.phase);
-      const kind = !done ? "" : (/not logged|sign-in failed/i.test(live.body) ? "err" : "ok");
-      setStatus(kind, `${escapeHtml(summary)}${link}${tasks ? `<br>${tasks}` : ""}`);
-      return done;
-    }
-
-    async function publishedRun(id) {
-      const stamp = Date.now();
-      const project = encodeURIComponent(PROJECT);
-      const urls = [
-        `${GITLAB}/api/v4/projects/${project}/pipelines/${id}`,
-        `${GITLAB}/api/v4/projects/${project}/packages/generic/timesheet-live/${id}/status.txt?t=${stamp}`
-      ];
-      for (const url of urls) {
-        try {
-          let response = await fetch(url, { cache: "no-store" });
-          if (!response.ok) {
-            response = await fetch(url, { cache: "no-store", headers: { "PRIVATE-TOKEN": MONITOR_TOKEN || TRIGGER_TOKEN } });
-          }
-          if (!response.ok) continue;
-          const text = await response.text();
-          if (text.includes("sign_in") || text.includes("<html")) continue;
-          if (!text.startsWith("pipeline: " + id + "\n") && !text.startsWith("pipeline: " + id + "\r\n")) continue;
-          return text;
-        } catch (error) {
-          /* try the next location */
-        }
-      }
-      return "";
-    }
-
-    async function watchPipeline(id, webUrl) {
-      const started = Date.now();
-      const jobs = [];
-      let trace = "";
-      let sawLive = false;
-      let known = false;
-      const link = webUrl ? ` <a href="${webUrl}">Open pipeline</a>` : "";
-      setStatus("", `Pipeline #${id} started.` + link);
+    async function watchRun(started) {
+      const begun = started.getTime();
+      setStatus("", "Starting the GitHub Actions run…");
+      let run = null;
       for (let attempt = 0; attempt < 720; attempt++) {
-        let pipelineStatus = "";
         try {
-          const published = await publishedRun(id);
-          if (published) {
-            sawLive = true;
-            showResult(published);
-            if (showLive(id, webUrl, parseLive(published), started)) return;
-          }
-        } catch (error) {
-          pipelineStatus = "";
-        }
-        try {
-          const pipelineResponse = await gitlabGet(`/pipelines/${id}`);
-          if (pipelineResponse.ok) {
-            known = true;
-            pipelineStatus = JSON.parse(pipelineResponse.text).status || "";
-            const jobsResponse = await gitlabGet(`/pipelines/${id}/jobs`);
-            if (jobsResponse.ok) jobs.splice(0, jobs.length, ...JSON.parse(jobsResponse.text));
-            const job = jobs.find((item) => item.name === "employee-task-log" || item.name === "manager-bulk-approve");
-            if (job) {
-              const traceResponse = await gitlabGet(`/jobs/${job.id}/trace`);
-              if (traceResponse.ok) trace = traceResponse.text;
+          if (!run) {
+            const list = await github(
+              `/repos/${OWNER}/${REPO}/actions/workflows/${WORKFLOW}/runs?event=workflow_dispatch&per_page=5`
+            );
+            if (list.ok) {
+              const data = await list.json();
+              run = (data.workflow_runs || []).find((item) => new Date(item.created_at).getTime() >= begun - 15000);
             }
+          } else {
+            const current = await github(`/repos/${OWNER}/${REPO}/actions/runs/${run.id}`);
+            if (current.ok) run = await current.json();
           }
         } catch (error) {
-          pipelineStatus = "";
+          run = run;
         }
-        const reported = trace.includes("logged in successfully") || trace.includes("Task log results") || trace.includes("Sign-in failed");
-        if (reported) {
-          showResult(trace);
-          renderRun(id, webUrl, pipelineStatus || "success", jobs, trace, started);
-          return;
-        }
-        if (known) {
-          const finished = renderRun(id, webUrl, pipelineStatus, jobs, trace, started);
-          if (finished && reported) return;
-        } else if (!sawLive && attempt === 0) {
-          setStatus("", `Pipeline #${id} started.` + link);
+        if (run) {
+          const link = ` <a href="${run.html_url}">Open run</a>`;
+          if (run.status === "completed") {
+            setStatus(run.conclusion === "success" ? "ok" : "err", `Run #${run.run_number} ${run.conclusion}.${link}`);
+            return;
+          }
+          setStatus("", `Run #${run.run_number} is ${run.status}.${link}`);
         }
         await new Promise((resolve) => setTimeout(resolve, 5000));
       }
-      setStatus("err", `No result for pipeline #${id} after ${clock(started)}.${link}`);
+      const link = run ? ` <a href="${run.html_url}">Open run</a>` : "";
+      setStatus("err", `No result after ${clock(begun)}.${link}`);
     }
   </script>
 </body>
