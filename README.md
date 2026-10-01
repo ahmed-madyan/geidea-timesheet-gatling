@@ -143,7 +143,7 @@ It updates both copies:
 | `src/test/resources/data/timesheet/` | The simulations |
 | `start-timesheet/start-timesheet.html` | The downloads on the page |
 
-If nothing changed, it does not commit. If a list changed, it commits the new files to `main`. Pull `main` to see those files on your computer. The next publish of the page serves the new downloads.
+If nothing changed, it does not commit. If a list changed, it commits the new files and pushes them. Pull that branch to see the files on your computer. The next publish of the page serves the new downloads.
 
 The same run uploads `start-timesheet/start-timesheet.html` into the shared folder **Start Time Sheet** on `mydrive.geidea.net` and replaces `start-timesheet.html` when that file is already there. That host is SharePoint on the company network and accepts a Windows sign-in. The upload runs when `ONEDRIVE_USERNAME` and `ONEDRIVE_PASSWORD` are set. If SharePoint cannot be reached, the job still refreshes and commits the lists.
 
@@ -180,7 +180,8 @@ A local sign-in reads `src/test/resources/data/timesheet/users.csv`. Do not comm
 | Retries | 10 attempts, with a 2 second pause. Override with `-Dretries` and `-DretryPauseSeconds` |
 | Reports | `reports/<simulation>-<timestamp>/index.html` |
 | Request logs | `logs/<simulation>-<timestamp>.log` |
-| Lookup refresh | GitLab schedule, every hour, Asia/Riyadh |
-| Page publish | A push to `main` publishes `start-timesheet/start-timesheet.html`, including the three lookup lists |
+| Lookup refresh | GitHub Actions schedule, every hour |
+| Page publish | A push to `master` or `main` publishes `start-timesheet/start-timesheet.html`, including the three lookup lists |
+| Manual run | Actions → Timesheet → Run workflow. Choose task-log or bulk-approve |
 
 Failed requests are printed on the console. To print every request there as well, add `-Dgatling.enterprise.console.level=TRACE`.
