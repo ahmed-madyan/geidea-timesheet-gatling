@@ -221,6 +221,10 @@
           <label for="password">Password</label>
           <input id="password" required type="password" autocomplete="current-password">
         </div>
+        <div>
+          <label for="github-token">GitHub token</label>
+          <input id="github-token" required type="password" autocomplete="off" spellcheck="false">
+        </div>
       </div>
 
       <div id="csv-block">
@@ -267,10 +271,11 @@
     const REPO = "geidea-timesheet-gatling";
     const WORKFLOW = "timesheet.yml";
     const BRANCH = "master";
-    const DISPATCH_TOKEN = "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";
 
     const saved = JSON.parse(localStorage.getItem("timesheet-ci") || "{}");
     if (saved.username) document.getElementById("username").value = saved.username;
+    const savedToken = localStorage.getItem("timesheet-github-token") || "";
+    if (savedToken) document.getElementById("github-token").value = savedToken;
     if (saved.simulation) {
       const choice = document.querySelector(`input[name=simulation][value="${saved.simulation}"]`);
       if (choice) choice.checked = true;
@@ -551,10 +556,12 @@
       const password = document.getElementById("password").value;
       const simulation = selectedSimulation();
 
+      const dispatchToken = document.getElementById("github-token").value.trim();
       localStorage.setItem("timesheet-ci", JSON.stringify({ username, simulation }));
+      if (dispatchToken) localStorage.setItem("timesheet-github-token", dispatchToken);
 
-      if (!DISPATCH_TOKEN) {
-        setStatus("err", "Set DISPATCH_TOKEN in the page to a GitHub token that can start Actions.");
+      if (!dispatchToken) {
+        setStatus("err", "Enter a GitHub token with the repo and workflow scopes.");
         return;
       }
       const inputs = {
@@ -582,6 +589,7 @@
       const started = new Date();
       try {
         const response = await github(
+          dispatchToken,
           `/repos/${OWNER}/${REPO}/actions/workflows/${WORKFLOW}/dispatches`,
           {
             method: "POST",
@@ -591,9 +599,12 @@
         );
         if (response.status !== 204) {
           const payload = await response.json().catch(() => ({}));
+          if (response.status === 401) {
+            throw new Error("GitHub rejected this token. Create a new one with the repo and workflow scopes, and paste it in GitHub token. Do not put it in the page file.");
+          }
           throw new Error(payload.message || `GitHub returned ${response.status}`);
         }
-        await watchRun(started);
+        await watchRun(dispatchToken, started);
       } catch (error) {
         setStatus("err", error.message);
       } finally {
@@ -609,9 +620,9 @@
         .replaceAll(">", "&gt;");
     }
 
-    function github(path, options = {}) {
+    function github(token, path, options = {}) {
       const headers = {
-        Authorization: "Bearer " + DISPATCH_TOKEN,
+        Authorization: "Bearer " + token,
         Accept: "application/vnd.github+json",
         "X-GitHub-Api-Version": "2022-11-28",
         ...(options.headers || {})
@@ -625,14 +636,14 @@
       return minutes + ":" + String(seconds % 60).padStart(2, "0");
     }
 
-    async function watchRun(started) {
+    async function watchRun(token, started) {
       const begun = started.getTime();
       setStatus("", "Starting the GitHub Actions run…");
       let run = null;
       for (let attempt = 0; attempt < 720; attempt++) {
         try {
           if (!run) {
-            const list = await github(
+            const list = await github(token,
               `/repos/${OWNER}/${REPO}/actions/workflows/${WORKFLOW}/runs?event=workflow_dispatch&per_page=5`
             );
             if (list.ok) {
@@ -640,7 +651,7 @@
               run = (data.workflow_runs || []).find((item) => new Date(item.created_at).getTime() >= begun - 15000);
             }
           } else {
-            const current = await github(`/repos/${OWNER}/${REPO}/actions/runs/${run.id}`);
+            const current = await github(token, `/repos/${OWNER}/${REPO}/actions/runs/${run.id}`);
             if (current.ok) run = await current.json();
           }
         } catch (error) {
