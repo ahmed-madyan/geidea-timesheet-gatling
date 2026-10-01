@@ -130,11 +130,7 @@ jobs:
     if: github.event_name == 'push'
     runs-on: ubuntu-latest
     permissions:
-      pages: write
-      id-token: write
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      contents: write
     steps:
       - uses: actions/checkout@v4
       - name: Copy the start page
@@ -142,8 +138,9 @@ jobs:
           mkdir -p public
           cp start-timesheet/start-timesheet.html public/index.html
           cp start-timesheet/start-timesheet.html public/start-timesheet.html
-      - uses: actions/upload-pages-artifact@v3
+      - name: Publish the start page
+        uses: peaceiris/actions-gh-pages@v4
         with:
-          path: public
-      - id: deployment
-        uses: actions/deploy-pages@v4
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
+          force_orphan: true

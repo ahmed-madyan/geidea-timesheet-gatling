@@ -57,7 +57,7 @@ Bulk approve hides the file upload. You only see it for **Log tasks**.
 | 5 | Click **Save and run** |
 | 6 | Open the link that appears and wait until the run finishes |
 
-If the run cannot start, the page shows the reason in red under the button. A successful start shows a link to the pipeline.
+If the run cannot start, the page shows the reason in red under the button. A successful start shows a link to the GitHub Actions run.
 
 ## Your password is encrypted
 
@@ -77,7 +77,7 @@ The username is sent as the account name so the run knows who to sign in as. The
 | Value sent | `enc:` followed by the ciphertext, in the `TIMESHEET_PASSWORD` field |
 | `ci/prepare-run.sh` | Decrypts that value on the job, then writes the sign-in file |
 | OpenSSL | The tool that decrypts. The command is `openssl pkeyutl` with OAEP and SHA-256 |
-| Private key | Masked GitLab variable `TIMESHEET_PASSWORD_KEY`. It is not in the page and not in the repository |
+| Private key | GitHub Actions secret `TIMESHEET_PASSWORD_KEY`. It is not in the page and not in the repository |
 
 ```mermaid
 flowchart LR
