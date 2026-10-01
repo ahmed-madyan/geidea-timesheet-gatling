@@ -1,0 +1,149 @@
+# Manual runs match the start page: task-log or bulk-approve.
+# An hourly schedule refreshes the lookup lists.
+# A push to the default branch publishes the start page.
+
+name: Timesheet
+
+on:
+  workflow_dispatch:
+    inputs:
+      simulation:
+        description: Simulation
+        type: choice
+        options:
+          - task-log
+          - bulk-approve
+        default: task-log
+      timesheet_username:
+        description: Timesheet username
+        required: true
+        type: string
+      timesheet_password:
+        description: Timesheet password, or enc:<ciphertext>
+        required: true
+        type: string
+      task_varieties_csv:
+        description: Task varieties CSV text. Required for task-log.
+        required: false
+        type: string
+  schedule:
+    - cron: "0 * * * *"
+  push:
+    branches:
+      - master
+      - main
+
+permissions:
+  contents: read
+
+jobs:
+  gatling:
+    if: github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "21"
+          cache: maven
+      - name: Prepare sign-in data
+        env:
+          SIMULATION: ${{ inputs.simulation }}
+          TIMESHEET_USERNAME: ${{ inputs.timesheet_username }}
+          TIMESHEET_PASSWORD: ${{ inputs.timesheet_password }}
+          TIMESHEET_PASSWORD_KEY: ${{ secrets.TIMESHEET_PASSWORD_KEY }}
+          TASK_VARIETIES_CSV: ${{ inputs.task_varieties_csv }}
+        run: |
+          chmod +x ci/prepare-run.sh
+          ./ci/prepare-run.sh
+      - name: Log tasks
+        if: inputs.simulation == 'task-log'
+        run: mvn -B -Dgatling.simulationClass=simulations.timesheet.tasks.EmployeeTaskLogSimulation gatling:test
+      - name: Bulk approve
+        if: inputs.simulation == 'bulk-approve'
+        run: mvn -B -Dgatling.simulationClass=simulations.timesheet.approval.ManagerBulkApproveSimulation gatling:test
+      - name: Show the timesheet summary
+        if: always()
+        run: |
+          if [ -f logs/timesheet-summary.txt ]; then
+            cat logs/timesheet-summary.txt
+            find reports -name index.html -type f | while read -r html; do
+              if grep -q 'id="timesheet-summary"' "$html"; then
+                continue
+              fi
+              awk '
+                !inserted && /<body/ {
+                  print
+                  print "<div id=\"timesheet-summary\" style=\"margin:0;padding:16px 24px;background:#1a1a1a;color:#fff;font:16px/1.5 sans-serif;white-space:pre-line;\">"
+                  while ((getline line < "logs/timesheet-summary.txt") > 0) print line
+                  print "</div>"
+                  inserted = 1
+                  next
+                }
+                { print }
+              ' "$html" > "$html.tmp" && mv "$html.tmp" "$html"
+            done
+          fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: gatling-results
+          path: |
+            reports/
+            logs/
+          if-no-files-found: ignore
+          retention-days: 14
+
+  refresh-lookups:
+    if: github.event_name == 'schedule'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Refresh department, country, and project lists
+        env:
+          TIMESHEET_USERNAME: ${{ secrets.TIMESHEET_USERNAME }}
+          TIMESHEET_PASSWORD: ${{ secrets.TIMESHEET_PASSWORD }}
+          ONEDRIVE_USERNAME: ${{ secrets.ONEDRIVE_USERNAME }}
+          ONEDRIVE_PASSWORD: ${{ secrets.ONEDRIVE_PASSWORD }}
+        run: python3 ci/refresh-lookups.py
+      - name: Commit updated lists
+        run: |
+          git config user.email "qe-performance@geidea.net"
+          git config user.name "QE Performance"
+          git add src/test/resources/data/timesheet/departments.csv src/test/resources/data/timesheet/countries.csv src/test/resources/data/timesheet/projects.csv start-timesheet/start-timesheet.html
+          if git diff --cached --quiet; then
+            echo "Lookup files already match production."
+          else
+            git commit -m "Refresh timesheet department, country, and project lists"
+            git push
+          fi
+
+  pages:
+    if: github.event_name == 'push'
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Copy the start page
+        run: |
+          mkdir -p public
+          cp start-timesheet/start-timesheet.html public/index.html
+          cp start-timesheet/start-timesheet.html public/start-timesheet.html
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+      - id: deployment
+        uses: actions/deploy-pages@v4
